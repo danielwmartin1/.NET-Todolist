@@ -42,7 +42,7 @@
       background-color: #f8f9fa;
       padding: 1rem;
       position: absolute;
-      width: 100%;
+      width: 100vw !important;
     }
     .navbar {
       top: 0;
@@ -66,6 +66,10 @@
       justify-content: space-between;
       align-items: center;
       width: 100vw; /* Fixed width of the screen */
+    }
+    .completed-title {
+      opacity: 0.3;
+      text-decoration: line-through;
     }
     .btn {
       padding: 0.5rem 1rem;
@@ -102,7 +106,7 @@
               <form asp-action="Toggle" method="post" class="d-inline">
                 <input type="hidden" name="id" value="@item.Id" />
                 <input type="checkbox" name="IsCompleted" value="true" @(item.IsCompleted ? "checked" : "") onchange="this.form.submit()" />
-                <span>@item.Title</span>
+                <span class="@(item.IsCompleted ? "completed-title" : "")">@item.Title</span>
               </form>
             </div>
             <div>
