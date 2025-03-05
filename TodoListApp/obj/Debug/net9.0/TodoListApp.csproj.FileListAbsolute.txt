@@ -116,6 +116,6 @@ C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9
 C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\TodoListApp.genruntimeconfig.cache
 C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\ref\TodoListApp.dll
 C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\compressed\fylme57bkz-uigu6cyl2l.gz
-C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\compressed\gkdmhvjpdp-iyowhw51nl.gz
 C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\compressed\dnj4w8o2rq-uuu0oqo2vx.gz
-C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\compressed\mitgr3sf0b-ou0r9lwjw2.gz
+C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\compressed\mitgr3sf0b-hzfof5n00a.gz
+C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\compressed\gkdmhvjpdp-oy25fupcvh.gz
