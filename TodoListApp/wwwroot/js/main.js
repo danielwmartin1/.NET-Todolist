@@ -2,8 +2,6 @@ import { createTodoItem, getTodoItems, updateTodoItem, deleteTodoItem } from './
 
 console.log('Main script loaded');
 
-/* ...existing code... */
-
 // Example: Create a new todo item
 document.getElementById('create-todo-form').addEventListener('submit', async (event) => {
   event.preventDefault();
@@ -25,7 +23,25 @@ async function loadTodoItems() {
     const todoItems = await getTodoItems();
     console.log('Todo items:', todoItems);
     // Render todo items in the UI
-    /* ...existing code to render todo items... */
+    const todoList = document.getElementById('todo-list');
+    todoList.innerHTML = '';
+    todoItems.forEach(item => {
+      const listItem = document.createElement('li');
+      listItem.textContent = item.title;
+      // Add a checkbox to update isCompleted status
+      const checkbox = document.createElement('input');
+      checkbox.type = 'checkbox';
+      checkbox.checked = item.isCompleted;
+      checkbox.style.marginRight = '10px'; // Add margin between checkbox and title
+      checkbox.addEventListener('change', () => handleUpdateTodoItem(item.id, { isCompleted: checkbox.checked }));
+      listItem.insertBefore(checkbox, listItem.firstChild); // Insert checkbox before the title
+      // Add delete button
+      const deleteButton = document.createElement('button');
+      deleteButton.textContent = 'Delete';
+      deleteButton.addEventListener('click', () => handleDeleteTodoItem(item.id));
+      listItem.appendChild(deleteButton);
+      todoList.appendChild(listItem);
+    });
   } catch (error) {
     console.error('Error loading todo items:', error);
   }
@@ -55,4 +71,5 @@ async function handleDeleteTodoItem(id) {
   }
 }
 
-/* ...existing code... */
+// Initial load of todo items
+loadTodoItems();
