@@ -5,46 +5,69 @@ using System.Linq;
 
 namespace TodoListApp.Controllers
 {
-    public class TodoController : Controller
+    [Route("api/[controller]")]
+    [ApiController]
+    public class TodoController : ControllerBase
     {
-        private static List<TodoItem> items = new List<TodoItem>();
-
-        public IActionResult Index()
+        private static List<TodoItem> todoItems = new List<TodoItem>
         {
-            return View(items);
+            new TodoItem { Id = 1, Title = "Test Todo 1", IsCompleted = false },
+            new TodoItem { Id = 2, Title = "Test Todo 2", IsCompleted = true }
+        };
+
+        // GET: api/todo
+        [HttpGet]
+        public ActionResult<IEnumerable<TodoItem>> GetTodoItems()
+        {
+            return Ok(todoItems);
         }
 
-        [HttpPost]
-        public IActionResult Add(TodoItem item)
+        // GET: api/todo/{id}
+        [HttpGet("{id}")]
+        public ActionResult<TodoItem> GetTodoItem(int id)
         {
-            if (ModelState.IsValid)
+            var todoItem = todoItems.FirstOrDefault(item => item.Id == id);
+            if (todoItem == null)
             {
-                item.Id = items.Count > 0 ? items.Max(i => i.Id) + 1 : 1;
-                items.Add(item);
+                return NotFound();
             }
-            return RedirectToAction("Index");
+            return Ok(todoItem);
         }
 
+        // POST: api/todo
         [HttpPost]
-        public IActionResult Delete(int id)
+        public ActionResult<TodoItem> CreateTodoItem(TodoItem todoItem)
         {
-            var item = items.FirstOrDefault(i => i.Id == id);
-            if (item != null)
-            {
-                items.Remove(item);
-            }
-            return RedirectToAction("Index");
+            todoItem.Id = todoItems.Count > 0 ? todoItems.Max(item => item.Id) + 1 : 1;
+            todoItems.Add(todoItem);
+            return CreatedAtAction(nameof(GetTodoItem), new { id = todoItem.Id }, todoItem);
         }
 
-        [HttpPost]
-        public IActionResult Toggle(int id)
+        // PUT: api/todo/{id}
+        [HttpPut("{id}")]
+        public ActionResult UpdateTodoItem(int id, TodoItem updatedTodoItem)
         {
-            var item = items.FirstOrDefault(i => i.Id == id);
-            if (item != null)
+            var todoItem = todoItems.FirstOrDefault(item => item.Id == id);
+            if (todoItem == null)
             {
-                item.IsCompleted = !item.IsCompleted;
+                return NotFound();
             }
-            return RedirectToAction("Index");
+            todoItem.Title = updatedTodoItem.Title;
+            todoItem.IsCompleted = updatedTodoItem.IsCompleted;
+            return NoContent();
+        }
+
+        // DELETE: api/todo/{id}
+        [HttpDelete("{id}")]
+        public ActionResult DeleteTodoItem(int id)
+        {
+            var todoItem = todoItems.FirstOrDefault(item => item.Id == id);
+            if (todoItem == null)
+            {
+                return NotFound();
+            }
+            todoItems.Remove(todoItem);
+            return NoContent();
         }
     }
 }

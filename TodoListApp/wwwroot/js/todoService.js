@@ -9,13 +9,14 @@ function initializeSupabase() {
   supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
 }
 
+initializeSupabase(); // Initialize Supabase
+
 // Validate input
 function validateInput(input) {
   if (!input || typeof input !== 'string' || input.trim() === '') {
     throw new Error('Invalid input');
   }
 }
-
 
 // Create a new todo item
 export async function createTodoItem(title) {
@@ -73,8 +74,6 @@ export async function updateTodoItem(id, updates) {
   console.log('Updated todo item:', data);
   return data;
 }
-
-
 
 // Delete a todo item
 export async function deleteTodoItem(id) {

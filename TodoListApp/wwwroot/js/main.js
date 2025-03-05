@@ -1,4 +1,4 @@
-import { createTodoItem, getTodoItems, updateTodoItem, deleteTodoItem } from './todoService.js'; // Ensure the correct path
+import { createTodoItem, getTodoItems, updateTodoItem, deleteTodoItem } from './todoService.js';
 
 console.log('Main script loaded');
 
@@ -6,9 +6,9 @@ document.addEventListener('DOMContentLoaded', function() {
   // Ensure the DOM is fully loaded before accessing elements
   const createTodoForm = document.getElementById('create-todo-form');
   if (createTodoForm) {
-    // Example: Create a new todo item
+    // Create a new todo item
     createTodoForm.addEventListener('submit', async (event) => {
-      event.preventDefault();
+      event.preventDefault(); // Prevent the default form submission
       console.log('Create todo form submitted');
       const title = event.target.elements['title'].value;
       try {
@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', function() {
   loadTodoItems();
 });
 
-// Example: Load and display todo items
+// Load and display todo items
 async function loadTodoItems() {
   console.log('Loading todo items');
   try {
@@ -64,7 +64,7 @@ async function loadTodoItems() {
   }
 }
 
-// Example: Update a todo item
+// Update a todo item
 async function handleUpdateTodoItem(id, updates) {
   console.log('Updating todo item:', id, updates);
   try {
@@ -77,7 +77,7 @@ async function handleUpdateTodoItem(id, updates) {
   }
 }
 
-// Example: Delete a todo item
+// Delete a todo item
 async function handleDeleteTodoItem(id) {
   console.log('Deleting todo item:', id);
   try {

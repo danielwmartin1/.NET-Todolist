@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddControllers(); // Add this line to register controllers
 
 var app = builder.Build();
 
@@ -26,5 +27,7 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Todo}/{action=Index}/{id?}");
+
+app.MapControllers(); // Use top-level route registration
 
 app.Run();
