@@ -1,0 +1,18 @@
+@model TodoListApp.Models.TodoItem
+
+<h1>Create Todo Item</h1>
+
+<form asp-action="Create" method="post">
+    <div>
+        <label>Title</label>
+        <input asp-for="Title" />
+        <span asp-validation-for="Title"></span>
+    </div>
+    <div>
+        <label>Is Completed</label>
+        <input asp-for="IsCompleted" type="checkbox" />
+    </div>
+    <button type="submit">Create</button>
+</form>
+
+<a asp-action="Index">Back to List</a>
