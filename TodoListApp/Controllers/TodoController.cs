@@ -1,49 +1,50 @@
 using Microsoft.AspNetCore.Mvc;
 using TodoListApp.Models;
-using System.Collections.Generic;
-using System.Linq;
+using TodoListApp.Services;
 
 namespace TodoListApp.Controllers
 {
     public class TodoController : Controller
     {
-        private static List<TodoItem> items = new List<TodoItem>();
+        private readonly SupabaseService _supabaseService;
 
-        public IActionResult Index()
+        public TodoController(SupabaseService supabaseService)
         {
+            _supabaseService = supabaseService;
+        }
+
+        public async Task<IActionResult> Index()
+        {
+            var items = await _supabaseService.GetTodoItemsAsync();
             return View(items);
         }
 
         [HttpPost]
-        public IActionResult Add(TodoItem item)
+        public async Task<IActionResult> Add(TodoItem item)
         {
             if (ModelState.IsValid)
             {
-                item.Id = items.Count > 0 ? items.Max(i => i.Id) + 1 : 1;
-                items.Add(item);
+                await _supabaseService.AddTodoItemAsync(item);
+                return RedirectToAction("Index");
             }
-            return RedirectToAction("Index");
+            return View(item);
         }
 
         [HttpPost]
-        public IActionResult Delete(int id)
+        public async Task<IActionResult> Update(TodoItem item)
         {
-            var item = items.FirstOrDefault(i => i.Id == id);
-            if (item != null)
+            if (ModelState.IsValid)
             {
-                items.Remove(item);
+                await _supabaseService.UpdateTodoItemAsync(item);
+                return RedirectToAction("Index");
             }
-            return RedirectToAction("Index");
+            return View(item);
         }
 
         [HttpPost]
-        public IActionResult Toggle(int id)
+        public async Task<IActionResult> Delete(int id)
         {
-            var item = items.FirstOrDefault(i => i.Id == id);
-            if (item != null)
-            {
-                item.IsCompleted = !item.IsCompleted;
-            }
+            await _supabaseService.DeleteTodoItemAsync(id);
             return RedirectToAction("Index");
         }
     }

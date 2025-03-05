@@ -7,7 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="supabase" Version="1.1.1" />
+    <PackageReference Include="supabase-csharp" Version="0.1.0" />
+    <PackageReference Include="Postgrest-csharp" Version="0.1.0" />
   </ItemGroup>
 
 </Project>
