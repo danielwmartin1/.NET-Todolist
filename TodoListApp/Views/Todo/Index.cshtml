@@ -1,0 +1,32 @@
+@model List<TodoListApp.Models.TodoItem>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Todo List</title>
+</head>
+<body>
+    <h1>Todo List</h1>
+
+    <form asp-action="Add" method="post">
+        <input type="text" name="Title" placeholder="Add new item" required />
+        <button type="submit">Add</button>
+    </form>
+
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>
+                <form asp-action="Toggle" method="post" style="display:inline;">
+                    <input type="hidden" name="id" value="@item.Id" />
+                    <button type="submit">@item.Title (@(item.IsCompleted ? "Completed" : "Incomplete"))</button>
+                </form>
+                <form asp-action="Delete" method="post" style="display:inline;">
+                    <input type="hidden" name="id" value="@item.Id" />
+                    <button type="submit">Delete</button>
+                </form>
+            </li>
+        }
+    </ul>
+</body>
+</html>
