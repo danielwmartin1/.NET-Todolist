@@ -115,3 +115,4 @@ C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9
 C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\TodoListApp.pdb
 C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\TodoListApp.genruntimeconfig.cache
 C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\ref\TodoListApp.dll
+C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\compressed\fylme57bkz-uigu6cyl2l.gz
