@@ -3,30 +3,66 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Todo List</title>
+  <title>Todo List</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    .full-width {
+      width: 100vw !important;
+    }
+    .flex-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+    .flex-item {
+      width: 100%;
+    }
+  </style>
 </head>
 <body>
-    <h1>Todo List</h1>
+  <div class="flex-container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center full-width flex-item">
+      <a class="navbar-brand" href="#">Todo List</a>
+    </nav>
+    
+    <div class="container mt-4 full-width flex-item">
+      <form asp-action="Add" method="post" class="form-inline justify-content-center">
+        <input type="text" name="Title" class="form-control mr-2" placeholder="Add new item" required />
+        <button type="submit" class="btn btn-primary">Add</button>
+      </form>
 
-    <form asp-action="Add" method="post">
-        <input type="text" name="Title" placeholder="Add new item" required />
-        <button type="submit">Add</button>
-    </form>
-
-    <ul>
+      <ul class="list-group mt-4">
         @foreach (var item in Model)
         {
-            <li>
-                <form asp-action="Toggle" method="post" style="display:inline;">
-                    <input type="hidden" name="id" value="@item.Id" />
-                    <button type="submit">@item.Title (@(item.IsCompleted ? "Completed" : "Incomplete"))</button>
-                </form>
-                <form asp-action="Delete" method="post" style="display:inline;">
-                    <input type="hidden" name="id" value="@item.Id" />
-                    <button type="submit">Delete</button>
-                </form>
-            </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <div>
+              <form asp-action="Toggle" method="post" class="d-inline">
+                <input type="hidden" name="id" value="@item.Id" />
+                <input type="checkbox" name="IsCompleted" value="true" @(item.IsCompleted ? "checked" : "") onchange="this.form.submit()" />
+                <span>@item.Title</span>
+              </form>
+            </div>
+            <div>
+              <form asp-action="Delete" method="post" class="d-inline">
+                <input type="hidden" name="id" value="@item.Id" />
+                <button type="submit" class="btn btn-danger">Delete</button>
+              </form>
+            </div>
+          </li>
         }
-    </ul>
+      </ul>
+    </div>
+
+    <footer class="footer bg-light text-center py-3 mt-4 full-width flex-item">
+      <div class="container">
+        <span class="text-muted">© 2023 Todo List App</span>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
