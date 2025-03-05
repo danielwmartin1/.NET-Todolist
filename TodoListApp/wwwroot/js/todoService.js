@@ -1,8 +1,13 @@
-import { createClient } from '@supabase/supabase-js';
+// Remove the import statement
+// import { createClient } from './node_modules/@supabase/supabase-js';
 
-const supabaseUrl = 'https://ienqhzalrsvsqjvgwddq.supabase.co';
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImllbnFoemFscnN2c3Fqdmd3ZGRxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDExNTg3OTQsImV4cCI6MjA1NjczNDc5NH0.sTvrOOzK1VeZ1HIkRqFZ0AE7BUDDTCzqiS73iMcU6Zo';
-const supabase = createClient(supabaseUrl, supabaseKey);
+let supabase;
+
+function initializeSupabase() {
+  const supabaseUrl = 'https://ienqhzalrsvsqjvgwddq.supabase.co';
+  const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImllbnFoemFscnN2c3Fqdmd3ZGRxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDExNTg3OTQsImV4cCI6MjA1NjczNDc5NH0.sTvrOOzK1VeZ1HIkRqFZ0AE7BUDDTCzqiS73iMcU6Zo';
+  supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
+}
 
 // Validate input
 function validateInput(input) {
@@ -10,6 +15,7 @@ function validateInput(input) {
     throw new Error('Invalid input');
   }
 }
+
 
 // Create a new todo item
 export async function createTodoItem(title) {
@@ -67,6 +73,8 @@ export async function updateTodoItem(id, updates) {
   console.log('Updated todo item:', data);
   return data;
 }
+
+
 
 // Delete a todo item
 export async function deleteTodoItem(id) {
