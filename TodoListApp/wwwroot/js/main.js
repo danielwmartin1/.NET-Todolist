@@ -1,8 +1,7 @@
 import { createTodoItem, getTodoItems, updateTodoItem, deleteTodoItem } from './todoService.js'; // Ensure the correct path
 
-console.log('Main script loaded');
-
 document.addEventListener('DOMContentLoaded', function() {
+  console.log('Main script loaded');
   // Ensure the DOM is fully loaded before accessing elements
   const createTodoForm = document.getElementById('create-todo-form');
   if (createTodoForm) {

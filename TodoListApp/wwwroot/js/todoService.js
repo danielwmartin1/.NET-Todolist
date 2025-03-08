@@ -1,25 +1,35 @@
-// Remove the import statement
+// Removed the import statement
 // import { createClient } from './node_modules/@supabase/supabase-js';
 
 let supabase;
 
 function initializeSupabase() {
-  const supabaseUrl = 'https://ienqhzalrsvsqjvgwddq.supabase.co';
-  const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImllbnFoemFscnN2c3Fqdmd3ZGRxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDExNTg3OTQsImV4cCI6MjA1NjczNDc5NH0.sTvrOOzK1VeZ1HIkRqFZ0AE7BUDDTCzqiS73iMcU6Zo';
-  supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
+  console.log('Initializing Supabase...');
+  if (!supabase) {
+    if (!window.supabase) {
+      console.error('Supabase library is not loaded.');
+      return;
+    }
+    const supabaseUrl = 'https://ienqhzalrsvsqjvgwddq.supabase.co';
+    const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImllbnFoemFscnN2c3Fqdmd3ZGRxIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDExNTg3OTQsImV4cCI6MjA1NjczNDc5NH0.sTvrOOzK1VeZ1HIkRqFZ0AE7BUDDTCzqiS73iMcU6Zo';
+    supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
+    console.log('Supabase initialized:', supabase);
+  }
 }
 
 // Validate input
 function validateInput(input) {
+  console.log('Validating input:', input);
   if (!input || typeof input !== 'string' || input.trim() === '') {
     throw new Error('Invalid input');
   }
 }
 
-
 // Create a new todo item
 export async function createTodoItem(title) {
-  console.log('Creating todo item:', title);
+  console.log('createTodoItem called with title:', title);
+  initializeSupabase();
+  if (!supabase) return;
   validateInput(title);
   const { data, error } = await supabase
     .from('todos')
@@ -34,28 +44,26 @@ export async function createTodoItem(title) {
 
 // Read all todo items
 export async function getTodoItems() {
-  console.log('Fetching todo items');
+  console.log('getTodoItems called');
+  initializeSupabase();
+  if (!supabase) return;
   const { data, error } = await supabase
     .from('todos')
     .select('*');
+  console.log('Supabase response:', { data, error });
   if (error) {
     console.error('Error fetching todo items:', error);
     throw error;
   }
   console.log('Fetched todo items:', data);
-  if (data.length === 0) {
-    console.log('No todo items found');
-  } else {
-    data.forEach(item => {
-      console.log('Todo item:', item);
-    });
-  }
   return data;
 }
 
 // Update a todo item
 export async function updateTodoItem(id, updates) {
-  console.log('Updating todo item:', id, updates);
+  console.log('updateTodoItem called with id:', id, 'updates:', updates);
+  initializeSupabase();
+  if (!supabase) return;
   if (!id || typeof id !== 'number') {
     throw new Error('Invalid ID');
   }
@@ -74,11 +82,11 @@ export async function updateTodoItem(id, updates) {
   return data;
 }
 
-
-
 // Delete a todo item
 export async function deleteTodoItem(id) {
-  console.log('Deleting todo item:', id);
+  console.log('deleteTodoItem called with id:', id);
+  initializeSupabase();
+  if (!supabase) return;
   if (!id || typeof id !== 'number') {
     throw new Error('Invalid ID');
   }
