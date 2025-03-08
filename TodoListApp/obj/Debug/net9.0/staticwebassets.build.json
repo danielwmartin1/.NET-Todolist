@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "lFeDoJ4njuRNOZfkBR3ryDOMd21zZAqE6NgWMzk4tCA=",
+  "Hash": "4bKCq+DdoArw94YMxU/RP+iGuw+zw4HXL7yXSOQM6/g=",
   "Source": "TodoListApp",
   "BasePath": "_content/TodoListApp",
   "Mode": "Default",
@@ -374,12 +374,12 @@
       "OriginalItemSpec": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\obj\\Debug\\net9.0\\compressed\\fylme57bkz-ny8d97xbvb.gz",
+      "Identity": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\obj\\Debug\\net9.0\\compressed\\fylme57bkz-yd7jbyqiaa.gz",
       "SourceId": "TodoListApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/TodoListApp",
-      "RelativePath": "css/styles#[.{fingerprint=ny8d97xbvb}]?.css.gz",
+      "RelativePath": "css/styles#[.{fingerprint=yd7jbyqiaa}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -388,8 +388,8 @@
       "RelatedAsset": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\css\\styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "d51e5x6fll",
-      "Integrity": "UWbyUpd/rJkc8LU4vFY7xwRLOJ2sc9a91mrjjFWxP/o=",
+      "Fingerprint": "qq8nwh5f4p",
+      "Integrity": "AqASxny5qT1gTbxMeEqce9Gg0fOcCqjhxYLBiQkC1EU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\css\\styles.css"
@@ -1543,8 +1543,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ny8d97xbvb",
-      "Integrity": "n2MDbjTUX5E5tw4UgfIWoZtAQNHLaU5NnfYIJUruLDw=",
+      "Fingerprint": "yd7jbyqiaa",
+      "Integrity": "2oCEWpSMBDjR+8FS0UEzMVgVgr0CPow6DkdgrjrxFPs=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
@@ -3237,12 +3237,12 @@
     },
     {
       "Route": "css/styles.css",
-      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\obj\\Debug\\net9.0\\compressed\\fylme57bkz-ny8d97xbvb.gz",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\obj\\Debug\\net9.0\\compressed\\fylme57bkz-yd7jbyqiaa.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001636661211"
+          "Quality": "0.001490312966"
         }
       ],
       "ResponseHeaders": [
@@ -3252,15 +3252,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "610"
+          "Value": "670"
         },
         {
           "Name": "ETag",
-          "Value": "\"UWbyUpd/rJkc8LU4vFY7xwRLOJ2sc9a91mrjjFWxP/o=\""
+          "Value": "\"AqASxny5qT1gTbxMeEqce9Gg0fOcCqjhxYLBiQkC1EU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 04:22:54 GMT"
+          "Value": "Sat, 08 Mar 2025 15:09:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3280,13 +3280,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"n2MDbjTUX5E5tw4UgfIWoZtAQNHLaU5NnfYIJUruLDw=\""
+          "Value": "W/\"2oCEWpSMBDjR+8FS0UEzMVgVgr0CPow6DkdgrjrxFPs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-n2MDbjTUX5E5tw4UgfIWoZtAQNHLaU5NnfYIJUruLDw="
+          "Value": "sha256-2oCEWpSMBDjR+8FS0UEzMVgVgr0CPow6DkdgrjrxFPs="
         }
       ]
     },
@@ -3301,7 +3301,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1670"
+          "Value": "1855"
         },
         {
           "Name": "Content-Type",
@@ -3309,11 +3309,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"n2MDbjTUX5E5tw4UgfIWoZtAQNHLaU5NnfYIJUruLDw=\""
+          "Value": "\"2oCEWpSMBDjR+8FS0UEzMVgVgr0CPow6DkdgrjrxFPs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 04:22:54 GMT"
+          "Value": "Sat, 08 Mar 2025 15:09:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3323,13 +3323,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-n2MDbjTUX5E5tw4UgfIWoZtAQNHLaU5NnfYIJUruLDw="
+          "Value": "sha256-2oCEWpSMBDjR+8FS0UEzMVgVgr0CPow6DkdgrjrxFPs="
         }
       ]
     },
     {
       "Route": "css/styles.css.gz",
-      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\obj\\Debug\\net9.0\\compressed\\fylme57bkz-ny8d97xbvb.gz",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\obj\\Debug\\net9.0\\compressed\\fylme57bkz-yd7jbyqiaa.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3338,7 +3338,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "610"
+          "Value": "670"
         },
         {
           "Name": "Content-Type",
@@ -3346,11 +3346,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UWbyUpd/rJkc8LU4vFY7xwRLOJ2sc9a91mrjjFWxP/o=\""
+          "Value": "\"AqASxny5qT1gTbxMeEqce9Gg0fOcCqjhxYLBiQkC1EU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 04:22:54 GMT"
+          "Value": "Sat, 08 Mar 2025 15:09:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3368,18 +3368,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UWbyUpd/rJkc8LU4vFY7xwRLOJ2sc9a91mrjjFWxP/o="
+          "Value": "sha256-AqASxny5qT1gTbxMeEqce9Gg0fOcCqjhxYLBiQkC1EU="
         }
       ]
     },
     {
-      "Route": "css/styles.ny8d97xbvb.css",
-      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\obj\\Debug\\net9.0\\compressed\\fylme57bkz-ny8d97xbvb.gz",
+      "Route": "css/styles.yd7jbyqiaa.css",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\obj\\Debug\\net9.0\\compressed\\fylme57bkz-yd7jbyqiaa.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001636661211"
+          "Quality": "0.001490312966"
         }
       ],
       "ResponseHeaders": [
@@ -3389,15 +3389,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "610"
+          "Value": "670"
         },
         {
           "Name": "ETag",
-          "Value": "\"UWbyUpd/rJkc8LU4vFY7xwRLOJ2sc9a91mrjjFWxP/o=\""
+          "Value": "\"AqASxny5qT1gTbxMeEqce9Gg0fOcCqjhxYLBiQkC1EU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 04:22:54 GMT"
+          "Value": "Sat, 08 Mar 2025 15:09:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3417,13 +3417,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"n2MDbjTUX5E5tw4UgfIWoZtAQNHLaU5NnfYIJUruLDw=\""
+          "Value": "W/\"2oCEWpSMBDjR+8FS0UEzMVgVgr0CPow6DkdgrjrxFPs=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ny8d97xbvb"
+          "Value": "yd7jbyqiaa"
         },
         {
           "Name": "label",
@@ -3431,12 +3431,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-n2MDbjTUX5E5tw4UgfIWoZtAQNHLaU5NnfYIJUruLDw="
+          "Value": "sha256-2oCEWpSMBDjR+8FS0UEzMVgVgr0CPow6DkdgrjrxFPs="
         }
       ]
     },
     {
-      "Route": "css/styles.ny8d97xbvb.css",
+      "Route": "css/styles.yd7jbyqiaa.css",
       "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\css\\styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3446,7 +3446,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1670"
+          "Value": "1855"
         },
         {
           "Name": "Content-Type",
@@ -3454,11 +3454,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"n2MDbjTUX5E5tw4UgfIWoZtAQNHLaU5NnfYIJUruLDw=\""
+          "Value": "\"2oCEWpSMBDjR+8FS0UEzMVgVgr0CPow6DkdgrjrxFPs=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 04:22:54 GMT"
+          "Value": "Sat, 08 Mar 2025 15:09:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3468,7 +3468,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ny8d97xbvb"
+          "Value": "yd7jbyqiaa"
         },
         {
           "Name": "label",
@@ -3476,13 +3476,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-n2MDbjTUX5E5tw4UgfIWoZtAQNHLaU5NnfYIJUruLDw="
+          "Value": "sha256-2oCEWpSMBDjR+8FS0UEzMVgVgr0CPow6DkdgrjrxFPs="
         }
       ]
     },
     {
-      "Route": "css/styles.ny8d97xbvb.css.gz",
-      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\obj\\Debug\\net9.0\\compressed\\fylme57bkz-ny8d97xbvb.gz",
+      "Route": "css/styles.yd7jbyqiaa.css.gz",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\obj\\Debug\\net9.0\\compressed\\fylme57bkz-yd7jbyqiaa.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3491,7 +3491,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "610"
+          "Value": "670"
         },
         {
           "Name": "Content-Type",
@@ -3499,11 +3499,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UWbyUpd/rJkc8LU4vFY7xwRLOJ2sc9a91mrjjFWxP/o=\""
+          "Value": "\"AqASxny5qT1gTbxMeEqce9Gg0fOcCqjhxYLBiQkC1EU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 04:22:54 GMT"
+          "Value": "Sat, 08 Mar 2025 15:09:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3521,7 +3521,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ny8d97xbvb"
+          "Value": "yd7jbyqiaa"
         },
         {
           "Name": "label",
@@ -3529,7 +3529,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UWbyUpd/rJkc8LU4vFY7xwRLOJ2sc9a91mrjjFWxP/o="
+          "Value": "sha256-AqASxny5qT1gTbxMeEqce9Gg0fOcCqjhxYLBiQkC1EU="
         }
       ]
     },
@@ -3856,7 +3856,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 05:03:16 GMT"
+          "Value": "Sat, 08 Mar 2025 15:08:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3909,7 +3909,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 05:03:16 GMT"
+          "Value": "Sat, 08 Mar 2025 15:08:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3946,7 +3946,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 05:03:16 GMT"
+          "Value": "Sat, 08 Mar 2025 15:08:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3993,7 +3993,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 05:03:16 GMT"
+          "Value": "Sat, 08 Mar 2025 15:08:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4054,7 +4054,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 05:03:16 GMT"
+          "Value": "Sat, 08 Mar 2025 15:08:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4099,7 +4099,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 05:03:16 GMT"
+          "Value": "Sat, 08 Mar 2025 15:08:12 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4154,7 +4154,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 07:57:24 GMT"
+          "Value": "Sat, 08 Mar 2025 08:06:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4207,7 +4207,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 07:57:24 GMT"
+          "Value": "Sat, 08 Mar 2025 08:06:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4244,7 +4244,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 07:57:24 GMT"
+          "Value": "Sat, 08 Mar 2025 08:06:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4291,7 +4291,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 07:57:24 GMT"
+          "Value": "Sat, 08 Mar 2025 08:06:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4352,7 +4352,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 07:57:24 GMT"
+          "Value": "Sat, 08 Mar 2025 08:06:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4397,7 +4397,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 07:57:24 GMT"
+          "Value": "Sat, 08 Mar 2025 08:06:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4750,7 +4750,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 07:57:04 GMT"
+          "Value": "Sat, 08 Mar 2025 08:06:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4803,7 +4803,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 07:57:04 GMT"
+          "Value": "Sat, 08 Mar 2025 08:06:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4840,7 +4840,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 07:57:04 GMT"
+          "Value": "Sat, 08 Mar 2025 08:06:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4887,7 +4887,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 07:57:04 GMT"
+          "Value": "Sat, 08 Mar 2025 08:06:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4948,7 +4948,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 07:57:04 GMT"
+          "Value": "Sat, 08 Mar 2025 08:06:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4993,7 +4993,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 07:57:04 GMT"
+          "Value": "Sat, 08 Mar 2025 08:06:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5048,7 +5048,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 04:59:17 GMT"
+          "Value": "Sat, 08 Mar 2025 08:06:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5101,7 +5101,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 04:59:17 GMT"
+          "Value": "Sat, 08 Mar 2025 08:06:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5138,7 +5138,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 04:59:17 GMT"
+          "Value": "Sat, 08 Mar 2025 08:06:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5185,7 +5185,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 04:59:17 GMT"
+          "Value": "Sat, 08 Mar 2025 08:06:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5246,7 +5246,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 04:59:17 GMT"
+          "Value": "Sat, 08 Mar 2025 08:06:34 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5291,7 +5291,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 08 Mar 2025 04:59:17 GMT"
+          "Value": "Sat, 08 Mar 2025 08:06:34 GMT"
         },
         {
           "Name": "Cache-Control",
