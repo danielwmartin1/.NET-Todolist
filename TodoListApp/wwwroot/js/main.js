@@ -1,5 +1,9 @@
 import { createTodoItem, getTodoItems, updateTodoItem, deleteTodoItem } from './todoService.js'; // Ensure the correct path
 
+// Load environment variables
+import dotenv from 'dotenv';
+dotenv.config();
+
 document.addEventListener('DOMContentLoaded', function() {
   console.log('Main script loaded');
   // Ensure the DOM is fully loaded before accessing elements
