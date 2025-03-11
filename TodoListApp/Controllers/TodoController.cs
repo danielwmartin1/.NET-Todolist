@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.Sqlite;
 using TodoListApp.Models;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,10 +8,45 @@ namespace TodoListApp.Controllers
 {
     public class TodoController : Controller
     {
-        private static List<TodoItem> items = new List<TodoItem>();
+        private readonly string connectionString = "Data Source=todo.db";
+
+        public TodoController()
+        {
+            using (var connection = new SqliteConnection(connectionString))
+            {
+                connection.Open();
+                var command = connection.CreateCommand();
+                command.CommandText = @"
+                    CREATE TABLE IF NOT EXISTS TodoItems (
+                        Id INTEGER PRIMARY KEY AUTOINCREMENT,
+                        Title TEXT NOT NULL,
+                        IsCompleted INTEGER NOT NULL
+                    )";
+                command.ExecuteNonQuery();
+            }
+        }
 
         public IActionResult Index()
         {
+            List<TodoItem> items = new List<TodoItem>();
+            using (var connection = new SqliteConnection(connectionString))
+            {
+                connection.Open();
+                var command = connection.CreateCommand();
+                command.CommandText = "SELECT Id, Title, IsCompleted FROM TodoItems";
+                using (var reader = command.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        items.Add(new TodoItem
+                        {
+                            Id = reader.GetInt32(0),
+                            Title = reader.GetString(1),
+                            IsCompleted = reader.GetBoolean(2)
+                        });
+                    }
+                }
+            }
             return View(items);
         }
 
@@ -19,8 +55,15 @@ namespace TodoListApp.Controllers
         {
             if (ModelState.IsValid)
             {
-                item.Id = items.Count > 0 ? items.Max(i => i.Id) + 1 : 1;
-                items.Add(item);
+                using (var connection = new SqliteConnection(connectionString))
+                {
+                    connection.Open();
+                    var command = connection.CreateCommand();
+                    command.CommandText = "INSERT INTO TodoItems (Title, IsCompleted) VALUES (@Title, @IsCompleted)";
+                    command.Parameters.AddWithValue("@Title", item.Title);
+                    command.Parameters.AddWithValue("@IsCompleted", item.IsCompleted);
+                    command.ExecuteNonQuery();
+                }
             }
             return RedirectToAction("Index");
         }
@@ -28,10 +71,13 @@ namespace TodoListApp.Controllers
         [HttpPost]
         public IActionResult Delete(int id)
         {
-            var item = items.FirstOrDefault(i => i.Id == id);
-            if (item != null)
+            using (var connection = new SqliteConnection(connectionString))
             {
-                items.Remove(item);
+                connection.Open();
+                var command = connection.CreateCommand();
+                command.CommandText = "DELETE FROM TodoItems WHERE Id = @Id";
+                command.Parameters.AddWithValue("@Id", id);
+                command.ExecuteNonQuery();
             }
             return RedirectToAction("Index");
         }
@@ -39,10 +85,13 @@ namespace TodoListApp.Controllers
         [HttpPost]
         public IActionResult Toggle(int id)
         {
-            var item = items.FirstOrDefault(i => i.Id == id);
-            if (item != null)
+            using (var connection = new SqliteConnection(connectionString))
             {
-                item.IsCompleted = !item.IsCompleted;
+                connection.Open();
+                var command = connection.CreateCommand();
+                command.CommandText = "UPDATE TodoItems SET IsCompleted = NOT IsCompleted WHERE Id = @Id";
+                command.Parameters.AddWithValue("@Id", id);
+                command.ExecuteNonQuery();
             }
             return RedirectToAction("Index");
         }
