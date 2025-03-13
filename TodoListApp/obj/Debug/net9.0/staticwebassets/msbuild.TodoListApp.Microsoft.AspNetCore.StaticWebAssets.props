@@ -138,8 +138,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>tizcloj26n</Fingerprint>
-      <Integrity>K3wAOYhOI8DtQRG3C6gAfw5v4wis5zY/2rgM/MbpdiA=</Integrity>
+      <Fingerprint>657aqxblsd</Fingerprint>
+      <Integrity>Vk+OPhuQGnKMXslOix3NO0rI/Y1qvbm0oHHa4uQ0j9Q=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\todoService.js'))</OriginalItemSpec>
