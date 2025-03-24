@@ -87,3 +87,9 @@ body, html {
   background-color: #dc3545;
   color: white;
 }
+
+/* ...existing code... */
+input[type="checkbox"] {
+  cursor: pointer !important;
+}
+/* ...existing code... */
