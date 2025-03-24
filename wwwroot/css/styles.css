@@ -13,3 +13,13 @@ input[type="checkbox"]:active {
 li:hover {
     background-color: lightyellow;
 }
+
+button.add-btn {
+    width: 100px; /* Adjust to match the delete button's width */
+    height: 40px; /* Ensure consistent height */
+}
+
+input.add-input {
+    height: 40px; /* Match the height of the add button */
+    box-sizing: border-box; /* Ensure padding doesn't affect height */
+}
