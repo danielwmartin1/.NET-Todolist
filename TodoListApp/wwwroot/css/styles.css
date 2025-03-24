@@ -53,6 +53,7 @@ body, html {
 }
 .footer {
   bottom: 0;
+  font-weight: normal;
 }
 .form-inline {
   display: flex;
