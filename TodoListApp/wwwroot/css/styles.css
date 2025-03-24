@@ -79,7 +79,8 @@ body, html {
   margin-left: 1.5rem !important; /* Remove margin */
   margin-right: 3rem !important; /* Remove margin */
   background-color: antiquewhite !important; /* Change input background color */
-
+  border: 0.25px solid rgba(0, 31, 63, 0.5) !important; /* Navy blue border with 50% opacity */
+  
 }
 .completed-title {
   opacity: 0.3;
