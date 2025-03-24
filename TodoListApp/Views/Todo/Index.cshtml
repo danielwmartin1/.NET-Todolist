@@ -3,48 +3,51 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Todo List</title>
+  <title>.NET Todo List</title>
   <link rel="stylesheet" href="~/css/styles.css" />
+  <script src="~/js/main.js" type="module" defer></script>
 </head>
-<body>
   <nav class="navbar full-width center-content center-text">
-    <a class="navbar-brand" href="#">Todo List</a>
+    <a class="navbar-brand text-white" style="font-size: 3.5rem;" href="/">.NET Todo List</a>
   </nav>
-
-  <form asp-action="Add" method="post" class="form-inline">
-    <input type="text" name="Title" class="form-control" placeholder="Add new item" required autofocus />
-    <button type="submit" class="btn btn-primary">Add</button>
-  </form>
-  
-  <div class="flex-container">
-    <div class="container mt-4 full-width flex-item">
-      <ul class="list-group mt-4">
-        @foreach (var item in Model)
-        {
-          <li class="list-group-item">
-            <div>
-              <form asp-action="Toggle" method="post" class="d-inline">
-                <input type="hidden" name="id" value="@item.Id" />
-                <input type="checkbox" name="IsCompleted" value="true" @(item.IsCompleted ? "checked" : "") onchange="this.form.submit()" />
-                <span class="@(item.IsCompleted ? "completed-title" : "")">@item.Title</span>
-              </form>
-            </div>
-            <div>
-              <form asp-action="Delete" method="post" class="d-inline">
-                <input type="hidden" name="id" value="@item.Id" />
-                <button type="submit" class="btn btn-danger">Delete</button>
-              </form>
-            </div>
-          </li>
-        }
-      </ul>
+  <body class="mt4 pt4">
+    <form asp-action="Add" method="post" class="form-inline">
+      <input type="text" name="Title" class="form-control" placeholder="Add new item" required autofocus />
+      <button type="submit" class="btn btn-primary">Add</button>
+    </form>
+    
+    <div class="flex-container">
+      <div class="container mt-4 full-width flex-item">
+        <ul class="list-group mt-4">
+          @if (Model != null)
+          {
+              foreach (var item in Model)
+              {
+                  <li class="list-group-item">
+                      <div>
+                          <form asp-action="Toggle" method="post" class="d-inline">
+                              <input type="hidden" name="id" value="@item.Id" />
+                              <input type="checkbox" name="IsCompleted" value="true" @(item.IsCompleted ? "checked" : "") onchange="this.form.submit()" />
+                              <span class="@(item.IsCompleted ? "completed-title" : "")">@item.Title</span>
+                          </form>
+                      </div>
+                      <div>
+                          <form asp-action="Delete" method="post" class="d-inline">
+                              <input type="hidden" name="id" value="@item.Id" />
+                              <button type="submit" class="btn btn-danger">Delete</button>
+                          </form>
+                      </div>
+                  </li>
+              }
+          }
+        </ul>
+      </div>
     </div>
-  </div>
 
-  <footer class="footer full-width center-content center-text">
-    <div class="container">
-      <span class="text-muted">© 2023 Todo List App</span>
-    </div>
-  </footer>
-</body>
+  </body>
+      <footer class="footer full-width center-content center-text">
+      <div class="container">
+        <span class="footer">Daniel Martin © @DateTime.Now.Year</span>
+      </div>
+    </footer>
 </html>

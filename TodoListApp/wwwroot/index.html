@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List App</title>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      if (window.supabase) {
+        initializeSupabase();
+      } else {
+        console.error('Supabase library is not loaded.');
+      }
+    });
+  </script>
+  <script src="js/todoService.js" defer></script>
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <form id="create-todo-form">
+    <input type="text" name="title" placeholder="Enter todo title" required>
+    <button type="submit">Add Todo</button>
+  </form>
+  <ul id="todo-list"></ul>
+</body>
+</html>

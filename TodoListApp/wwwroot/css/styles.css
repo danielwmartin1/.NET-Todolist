@@ -5,6 +5,7 @@ body, html {
   overflow-x: hidden; /* Prevent scrolling along the x-axis */
   display: flex;
   flex-direction: column;
+  background-color: #e0e0e0; /* Change background to gray */
 }
 .flex-container {
   display: flex;
@@ -34,7 +35,9 @@ body, html {
   text-align: center;
 }
 .navbar, .footer {
-  background-color: #f8f9fa;
+  background-color: #001f3f !important; /* Navy blue background */
+  color: white !important; /* White text */
+  font-weight: bold; /* Bolder font */
   padding: 1rem;
   position: absolute;
   left: 0;
@@ -52,11 +55,13 @@ body, html {
   align-items: center;
   margin-top: 7.5rem; /* Decrease margin by 150% */
   width: 100%; /* Full width of the screen */
+  padding: 20px; /* Add padding */
 }
 .form-control {
   margin-right: 0.5rem;
   flex-grow: 1; /* Allow input to grow */
 }
+
 .list-group-item {
   display: flex;
   justify-content: space-between;
