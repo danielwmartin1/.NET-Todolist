@@ -145,3 +145,4 @@ C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9
 C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\compressed\n6zih5f4u9-y94ev908vn.gz
 C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\compressed\gkdmhvjpdp-lov4ebowva.gz
 C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\compressed\mitgr3sf0b-657aqxblsd.gz
+C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\bin\Debug\net9.0\package.json
