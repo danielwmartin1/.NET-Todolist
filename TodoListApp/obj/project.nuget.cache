@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "IcmVPps+ePc=",
-=======
   "dgSpecHash": "tdSt/B2dTno=",
->>>>>>> sql
   "success": true,
   "projectFilePath": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\TodoListApp.csproj",
   "expectedPackageFiles": [

@@ -13,11 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TodoListApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-<<<<<<< HEAD
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+539bb7afcf2471393dd5a7e3aef4bd25c8116b63")]
-=======
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+651c65cab35ed949a393e759c07fb2182e4d40f4")]
->>>>>>> sql
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ea8fb2eefa544d0c7fc4d156540ef0096e4a41da")]
 [assembly: System.Reflection.AssemblyProductAttribute("TodoListApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TodoListApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
