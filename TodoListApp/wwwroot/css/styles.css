@@ -88,12 +88,18 @@ body, html {
   color: white;
 }
 
-/* ...existing code... */
 input[type="checkbox"] {
   cursor: pointer !important;
 }
-/* ...existing code... */
+
+input[type="checkbox"]:hover {
+  outline: 2px solid rgb(148, 212, 255);
+}
+
+input[type="checkbox"]:active {
+  outline: 2px solid blue;
+}
 
 li:hover {
-  background-color: rgba(255, 255, 126, 0.645);
+  background-color: rgba(255, 255, 122, 0.645);
 }

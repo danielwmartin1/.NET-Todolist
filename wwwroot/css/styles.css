@@ -2,6 +2,14 @@ input[type="checkbox"] {
     cursor: pointer !important;
 }
 
+input[type="checkbox"]:hover {
+    outline: 2px solid lightblue;
+}
+
+input[type="checkbox"]:active {
+    outline: 2px solid blue;
+}
+
 li:hover {
     background-color: lightyellow;
 }
