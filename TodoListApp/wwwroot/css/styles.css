@@ -45,6 +45,7 @@ body, html {
 }
 .navbar {
   top: 0;
+  border-bottom: 5px ridge rgb(0, 255, 255);
 }
 
 .navbar-brand {
@@ -54,6 +55,7 @@ body, html {
 .footer {
   bottom: 0;
   font-weight: normal;
+  border-top: 5px ridge rgb(0, 255, 255);
 }
 .form-inline {
   display: flex;
