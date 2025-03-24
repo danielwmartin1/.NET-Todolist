@@ -48,7 +48,7 @@ body, html {
 }
 
 .navbar-brand {
-  font-size: 3rem !important; /* Increase font size */
+  font-size: 3.5rem !important; /* Increase font size */
   color: white !important; /* White text */
 }
 .footer {
@@ -58,7 +58,7 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 7.5rem; /* Decrease margin by 150% */
+  margin-top: 10rem; /* Decrease margin by 150% */
   width: 100%; /* Full width of the screen */
   padding: 20px; /* Add padding */
 }
