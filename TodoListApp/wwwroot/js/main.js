@@ -1,6 +1,6 @@
 import { createTodoItem, getTodoItems, updateTodoItem, deleteTodoItem } from './todoService.js'; // Ensure the correct path
 
-// Load environment variables
+// Ensure dotenv is configured
 import dotenv from 'dotenv';
 dotenv.config();
 

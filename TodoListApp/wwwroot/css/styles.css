@@ -5,7 +5,7 @@ body, html {
   overflow-x: hidden; /* Prevent scrolling along the x-axis */
   display: flex;
   flex-direction: column;
-  background-color: #e0e0e0; /* Change background to gray */
+  background-color: #94949498; /* Change background to gray */
 }
 .flex-container {
   display: flex;
