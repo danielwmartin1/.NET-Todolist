@@ -46,6 +46,11 @@ body, html {
 .navbar {
   top: 0;
 }
+
+.navbar-brand {
+  font-size: 3rem !important; /* Increase font size */
+  color: white !important; /* White text */
+}
 .footer {
   bottom: 0;
 }
