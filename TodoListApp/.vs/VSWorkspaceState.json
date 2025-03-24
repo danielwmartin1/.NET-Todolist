@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Controllers",
+    "\\Controllers\\Todo",
+    "\\Data",
+    "\\wwwroot",
+    "\\wwwroot\\js"
+  ],
+  "SelectedNode": "\\wwwroot\\js\\todoService.js",
+  "PreviewInSolutionExplorer": false
+}

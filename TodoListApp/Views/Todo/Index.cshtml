@@ -5,7 +5,7 @@
 <head>
   <title>.NET Todo List</title>
   <link rel="stylesheet" href="~/css/styles.css" />
-  <script src="~/js/main.js" type="module" defer></script> <!-- Updated to use type="module" -->
+  <script src="~/js/main.js" type="module" defer></script>
 </head>
   <nav class="navbar full-width center-content center-text">
     <a class="navbar-brand text-white" style="font-size: 3.5rem;" href="/">.NET Todo List</a>
@@ -19,23 +19,26 @@
     <div class="flex-container">
       <div class="container mt-4 full-width flex-item">
         <ul class="list-group mt-4">
-          @foreach (var item in Model)
+          @if (Model != null)
           {
-            <li class="list-group-item">
-              <div>
-                <form asp-action="Toggle" method="post" class="d-inline">
-                  <input type="hidden" name="id" value="@item.Id" />
-                  <input type="checkbox" name="IsCompleted" value="true" @(item.IsCompleted ? "checked" : "") onchange="this.form.submit()" />
-                  <span class="@(item.IsCompleted ? "completed-title" : "")">@item.Title</span>
-                </form>
-              </div>
-              <div>
-                <form asp-action="Delete" method="post" class="d-inline">
-                  <input type="hidden" name="id" value="@item.Id" />
-                  <button type="submit" class="btn btn-danger">Delete</button>
-                </form>
-              </div>
-            </li>
+              foreach (var item in Model)
+              {
+                  <li class="list-group-item">
+                      <div>
+                          <form asp-action="Toggle" method="post" class="d-inline">
+                              <input type="hidden" name="id" value="@item.Id" />
+                              <input type="checkbox" name="IsCompleted" value="true" @(item.IsCompleted ? "checked" : "") onchange="this.form.submit()" />
+                              <span class="@(item.IsCompleted ? "completed-title" : "")">@item.Title</span>
+                          </form>
+                      </div>
+                      <div>
+                          <form asp-action="Delete" method="post" class="d-inline">
+                              <input type="hidden" name="id" value="@item.Id" />
+                              <button type="submit" class="btn btn-danger">Delete</button>
+                          </form>
+                      </div>
+                  </li>
+              }
           }
         </ul>
       </div>
