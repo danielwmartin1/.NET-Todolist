@@ -1,9 +1,5 @@
 import { createTodoItem, getTodoItems, updateTodoItem, deleteTodoItem } from './todoService.js'; // Ensure the correct path
 
-// Ensure dotenv is configured
-import dotenv from 'dotenv';
-dotenv.config();
-
 document.addEventListener('DOMContentLoaded', function() {
   console.log('Main script loaded');
   // Ensure the DOM is fully loaded before accessing elements
@@ -37,7 +33,11 @@ async function loadTodoItems() {
   try {
     console.log('Calling getTodoItems');
     const todoItems = await getTodoItems();
-    console.log('Todo items:', todoItems);
+    console.log('Todo items response:', todoItems); // Debugging log
+    if (!todoItems || !Array.isArray(todoItems)) {
+      console.error('Todo items are undefined or not an array');
+      return;
+    }
     // Render todo items in the UI
     const todoList = document.getElementById('todo-list');
     if (todoList) {
