@@ -68,6 +68,7 @@ body, html {
 .form-control {
   margin-right: 0.5rem;
   flex-grow: 1; /* Allow input to grow */
+  background-color: antiquewhite !important; /* Change input background color */
 }
 
 .list-group-item {
@@ -77,6 +78,8 @@ body, html {
   width: 100vw; /* Fixed width of the screen */
   margin-left: 1.5rem !important; /* Remove margin */
   margin-right: 3rem !important; /* Remove margin */
+  background-color: antiquewhite !important; /* Change input background color */
+
 }
 .completed-title {
   opacity: 0.3;
@@ -109,5 +112,5 @@ input[type="checkbox"]:active {
 }
 
 li:hover {
-  background-color: rgba(255, 255, 122, 0.645);
+  background-color: rgba(255, 255, 45, 0.645) !important;
 }
