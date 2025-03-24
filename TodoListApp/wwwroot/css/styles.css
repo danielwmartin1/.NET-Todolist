@@ -93,3 +93,7 @@ input[type="checkbox"] {
   cursor: pointer !important;
 }
 /* ...existing code... */
+
+li:hover {
+  background-color: rgba(255, 255, 126, 0.645);
+}
