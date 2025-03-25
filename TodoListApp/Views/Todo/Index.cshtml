@@ -9,6 +9,7 @@
 </head>
   <body class="mt4 pt4">
     <nav class="navbar full-width center-content center-text">
+        <h1 class="navbar-title">.NET Todo List</h1>
     </nav>
     <form asp-action="Add" method="post" class="form-inline">
       <input type="text" name="Title" class="form-control" placeholder="Add new item" required autofocus />
@@ -35,6 +36,15 @@
                               <input type="hidden" name="id" value="@item.Id" />
                               <button type="submit" class="btn btn-danger">Delete</button>
                           </form>
+                          <button class="btn btn-secondary" onclick="toggleEditForm(@item.Id)">Edit</button>
+                      </div>
+                      <div id="edit-form-@item.Id" style="display:none;">
+                          <form asp-action="Update" method="post" class="form-inline">
+                              <input type="hidden" name="id" value="@item.Id" />
+                              <input type="text" name="Title" class="form-control" value="@item.Title" required />
+                              <button type="submit" class="btn btn-primary">Update</button>
+                              <button type="button" class="btn btn-secondary" onclick="toggleEditForm(@item.Id)">Cancel</button>
+                          </form>
                       </div>
                   </li>
               }
@@ -49,4 +59,15 @@
         <span class="footer">Daniel Martin © @DateTime.Now.Year</span>
       </div>
     </footer>
+    <script>
+        function toggleEditForm(id) {
+            console.log(`Toggling edit form for TodoItem with Id=${id}`);
+            const form = document.getElementById(`edit-form-${id}`);
+            if (!form) {
+                console.error(`Edit form not found for Id=${id}`);
+                return;
+            }
+            form.style.display = form.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
 </html>

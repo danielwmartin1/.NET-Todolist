@@ -51,6 +51,12 @@ namespace TodoListApp.Controllers
                 }
             }
             Console.WriteLine($"Fetched {items.Count} TodoItems.");
+
+            if (Request.Headers["Accept"].ToString().Contains("application/json"))
+            {
+                return Json(items);
+            }
+
             return View(items);
         }
 
@@ -107,6 +113,31 @@ namespace TodoListApp.Controllers
                 command.ExecuteNonQuery();
             }
             Console.WriteLine("TodoItem completion status toggled successfully.");
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public IActionResult Update(int id, string title)
+        {
+            Console.WriteLine($"[DEBUG] Update action called with Id={id}, Title={title}");
+            using (var connection = new SqliteConnection(connectionString))
+            {
+                connection.Open();
+                var command = connection.CreateCommand();
+                command.CommandText = "UPDATE TodoItems SET Title = @Title WHERE Id = @Id";
+                command.Parameters.AddWithValue("@Title", title);
+                command.Parameters.AddWithValue("@Id", id);
+
+                var rowsAffected = command.ExecuteNonQuery();
+                if (rowsAffected > 0)
+                {
+                    Console.WriteLine($"[DEBUG] TodoItem with Id={id} updated successfully.");
+                }
+                else
+                {
+                    Console.WriteLine($"[ERROR] TodoItem with Id={id} not found or update failed.");
+                }
+            }
             return RedirectToAction("Index");
         }
     }

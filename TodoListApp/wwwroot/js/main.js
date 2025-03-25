@@ -69,14 +69,15 @@ async function loadTodoItems() {
 
 // Example: Update a todo item
 async function handleUpdateTodoItem(id, updates) {
-  console.log('Updating todo item:', id, updates);
+  console.log(`[DEBUG] Updating todo item with Id=${id}, Updates=`, updates);
   try {
-    console.log('Calling updateTodoItem');
+    console.log('[DEBUG] Calling updateTodoItem');
     await updateTodoItem(id, updates);
+    console.log(`[DEBUG] Todo item with Id=${id} updated successfully.`);
     // Refresh the todo list
     loadTodoItems();
   } catch (error) {
-    console.error('Error updating todo item:', error);
+    console.error(`[ERROR] Error updating todo item with Id=${id}:`, error);
   }
 }
 
@@ -92,3 +93,33 @@ async function handleDeleteTodoItem(id) {
     console.error('Error deleting todo item:', error);
   }
 }
+
+async function fetchTodoItems() {
+    try {
+        const response = await fetch('/Todo/Index', {
+            method: 'GET',
+            headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+            }
+        });
+
+        if (!response.ok) {
+            console.error(`Error fetching todo items: ${response.statusText}`);
+            return;
+        }
+
+        const data = await response.json();
+        if (!data || !Array.isArray(data)) {
+            console.error('Invalid todo items response:', data);
+            return;
+        }
+
+        console.log('Todo items response:', data);
+        // Process and render the todo items here
+    } catch (error) {
+        console.error('Error fetching todo items:', error);
+    }
+}
+
+fetchTodoItems();
