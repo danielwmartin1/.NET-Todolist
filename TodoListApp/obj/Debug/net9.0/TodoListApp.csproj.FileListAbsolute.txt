@@ -64,7 +64,6 @@ C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9
 C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\scopedcss\bundle\TodoListApp.styles.css
 C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\scopedcss\projectbundle\TodoListApp.bundle.scp.css
 C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\compressed\88w224q4to-b9sayid5wm.gz
-C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\compressed\fylme57bkz-xblkbp9qo5.gz
 C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\compressed\ohft37qcyw-61n19gt1b8.gz
 C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\compressed\n6zih5f4u9-re1g0a0s6s.gz
 C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\compressed\xj2ue58ob4-5ipweew5fc.gz
@@ -147,3 +146,4 @@ C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9
 C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\TodoListApp.genruntimeconfig.cache
 C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\ref\TodoListApp.dll
 C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\compressed\gkdmhvjpdp-x2hrpnljie.gz
+C:\Users\danie\OneDrive\Coding\Projects\.NET-Todolist\TodoListApp\obj\Debug\net9.0\compressed\fylme57bkz-xfggxklw5f.gz
