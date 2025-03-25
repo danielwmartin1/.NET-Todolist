@@ -8,15 +8,26 @@ document.addEventListener('DOMContentLoaded', function() {
     // Example: Create a new todo item
     createTodoForm.addEventListener('submit', async (event) => {
       event.preventDefault();
-      console.log('Create todo form submitted');
-      const title = event.target.elements['title'].value;
+      console.log('[DEBUG] Create todo form submitted');
+      const titleInput = document.getElementById('todo-title'); // Access input by id
+      if (!titleInput) {
+        console.error('[ERROR] Todo title input not found');
+        return;
+      }
+      const title = titleInput.value.trim(); // Get and trim the value
+      if (!title) {
+        console.error('[ERROR] Todo title is empty');
+        return;
+      }
       try {
-        console.log('Calling createTodoItem');
+        console.log('[DEBUG] Calling createTodoItem');
         await createTodoItem(title);
+        titleInput.value = ''; // Clear the input field after submission
+        console.log('[DEBUG] Todo item created successfully. Refreshing list...');
         // Refresh the todo list
         loadTodoItems();
       } catch (error) {
-        console.error('Error creating todo item:', error);
+        console.error('[ERROR] Error creating todo item:', error);
       }
     });
   } else {
@@ -29,13 +40,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Example: Load and display todo items
 async function loadTodoItems() {
-  console.log('Loading todo items');
+  console.log('[DEBUG] Loading todo items');
   try {
-    console.log('Calling getTodoItems');
+    console.log('[DEBUG] Calling getTodoItems');
     const todoItems = await getTodoItems();
-    console.log('Todo items response:', todoItems); // Debugging log
+    console.log('[DEBUG] Todo items response:', todoItems); // Debugging log
     if (!todoItems || !Array.isArray(todoItems)) {
-      console.error('Todo items are undefined or not an array');
+      console.error('[ERROR] Todo items are undefined or not an array');
       return;
     }
     // Render todo items in the UI
@@ -60,10 +71,10 @@ async function loadTodoItems() {
         todoList.appendChild(listItem);
       });
     } else {
-      console.error('todo-list element not found');
+      console.error('[ERROR] todo-list element not found');
     }
   } catch (error) {
-    console.error('Error loading todo items:', error);
+    console.error('[ERROR] Error loading todo items:', error);
   }
 }
 
@@ -73,7 +84,7 @@ async function handleUpdateTodoItem(id, updates) {
   try {
     console.log('[DEBUG] Calling updateTodoItem');
     await updateTodoItem(id, updates);
-    console.log(`[DEBUG] Todo item with Id=${id} updated successfully.`);
+    console.log(`[DEBUG] Todo item with Id=${id} updated successfully. Refreshing list...`);
     // Refresh the todo list
     loadTodoItems();
   } catch (error) {
@@ -83,14 +94,15 @@ async function handleUpdateTodoItem(id, updates) {
 
 // Example: Delete a todo item
 async function handleDeleteTodoItem(id) {
-  console.log('Deleting todo item:', id);
+  console.log(`[DEBUG] Deleting todo item with Id=${id}`);
   try {
-    console.log('Calling deleteTodoItem');
+    console.log('[DEBUG] Calling deleteTodoItem');
     await deleteTodoItem(id);
+    console.log(`[DEBUG] Todo item with Id=${id} deleted successfully. Refreshing list...`);
     // Refresh the todo list
     loadTodoItems();
   } catch (error) {
-    console.error('Error deleting todo item:', error);
+    console.error(`[ERROR] Error deleting todo item with Id=${id}:`, error);
   }
 }
 

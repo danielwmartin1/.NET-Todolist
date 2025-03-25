@@ -11,8 +11,8 @@
     <nav class="navbar full-width center-content center-text">
         <h1 class="navbar-title">.NET Todo List</h1>
     </nav>
-    <form asp-action="Add" method="post" class="form-inline">
-      <input type="text" name="Title" class="form-control" placeholder="Add new item" required autofocus />
+    <form id="create-todo-form" asp-action="Add" method="post" class="form-inline" onsubmit="logAddFormSubmission(event)">
+      <input type="text" id="todo-title" name="Title" class="form-control" placeholder="Add new item" required autofocus />
       <button type="submit" class="btn btn-primary">Add</button>
     </form>
     
@@ -68,6 +68,22 @@
                 return;
             }
             form.style.display = form.style.display === 'none' ? 'block' : 'none';
+        }
+
+        function logAddFormSubmission(event) {
+            event.preventDefault(); // Prevent default form submission for debugging
+            const titleInput = document.getElementById('todo-title');
+            if (!titleInput) {
+                console.error('[ERROR] Todo title input not found');
+                return;
+            }
+            const title = titleInput.value.trim();
+            if (!title) {
+                console.error('[ERROR] Todo title is empty');
+                return;
+            }
+            console.log(`[DEBUG] Add form submitted with title: "${title}"`);
+            event.target.submit(); // Proceed with form submission
         }
     </script>
 </html>
