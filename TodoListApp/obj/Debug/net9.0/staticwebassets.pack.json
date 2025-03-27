@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\js\\supabaseClient.js"
     },
     {
+      "Id": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\js\\todo.js",
+      "PackagePath": "staticwebassets\\js\\todo.js"
+    },
+    {
       "Id": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\js\\todoService.js",
       "PackagePath": "staticwebassets\\js\\todoService.js"
     },
