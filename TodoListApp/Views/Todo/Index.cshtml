@@ -32,18 +32,18 @@
                           </form>
                       </div>
                       <div>
-                          <form asp-action="Delete" method="post" class="d-inline">
+                          <form asp-action="Delete" method="post" class="d-inline" id="delete-button-@item.Id">
                               <input type="hidden" name="id" value="@item.Id" />
                               <button type="submit" class="btn btn-danger">Delete</button>
                           </form>
-                          <button class="btn btn-secondary" onclick="toggleEditForm(@item.Id)">Edit</button>
+                          <button class="btn btn-secondary" id="edit-button-@item.Id" onclick="toggleEditForm(@item.Id)">Edit</button>
                       </div>
                       <div id="edit-form-@item.Id" style="display:none;">
                           <form asp-action="Update" method="post" class="form-inline">
                               <input type="hidden" name="id" value="@item.Id" />
                               <input type="text" name="Title" class="form-control" value="@item.Title" required />
-                              <button type="submit" class="btn btn-primary">Update</button>
-                              <button type="button" class="btn btn-secondary" onclick="toggleEditForm(@item.Id)">Cancel</button>
+                              <button type="submit" class="btn btn-primary btn-spacing" id="update-button-@item.Id">Update</button>
+                              <button type="button" class="btn btn-secondary btn-spacing" onclick="toggleEditForm(@item.Id)">Cancel</button>
                           </form>
                       </div>
                   </li>
@@ -63,11 +63,26 @@
         function toggleEditForm(id) {
             console.log(`Toggling edit form for TodoItem with Id=${id}`);
             const form = document.getElementById(`edit-form-${id}`);
-            if (!form) {
-                console.error(`Edit form not found for Id=${id}`);
+            const deleteButton = document.getElementById(`delete-button-${id}`);
+            const editButton = document.getElementById(`edit-button-${id}`);
+            const updateButton = document.getElementById(`update-button-${id}`);
+            const inputField = form.querySelector('input[name="Title"]'); // Select the edit input field
+
+            if (!form || !deleteButton || !editButton || !updateButton || !inputField) {
+                console.error(`Required elements not found for Id=${id}`);
                 return;
             }
-            form.style.display = form.style.display === 'none' ? 'block' : 'none';
+
+            const isEditing = form.style.display === 'block';
+            form.style.display = isEditing ? 'none' : 'block';
+            deleteButton.style.display = isEditing ? 'inline-block' : 'none'; // Hide delete button while editing
+            editButton.style.display = isEditing ? 'inline-block' : 'none'; // Hide edit button while editing
+            updateButton.style.display = isEditing ? 'none' : 'inline-block'; // Show update button while editing
+
+            if (!isEditing) {
+                inputField.focus(); // Autofocus the input field when entering edit mode
+                inputField.setSelectionRange(inputField.value.length, inputField.value.length); // Move cursor to the end
+            }
         }
 
         function logAddFormSubmission(event) {

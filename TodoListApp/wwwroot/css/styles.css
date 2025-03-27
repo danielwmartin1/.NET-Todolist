@@ -141,6 +141,10 @@ body, html {
   color: white;
 }
 
+.btn-spacing {
+  margin-right: 0.5rem; /* Add spacing between buttons */
+}
+
 input[type="checkbox"] {
   cursor: pointer !important;
 }
