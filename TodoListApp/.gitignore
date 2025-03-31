@@ -1,2 +1,10 @@
 # ...existing code...
 .env
+.dotenv
+# Binaries and build artifacts
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.log

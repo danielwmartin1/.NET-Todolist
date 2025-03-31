@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VsWDEO9GBRZa1j36JWCH+Sq9CkXS8CNB52PnRR/BlRk=",
+  "Hash": "yGVIb0pl1HnM8uEWu93Wt+XKxu9TpTrY2fwszTJ1mQU=",
   "Source": "TodoListApp",
   "BasePath": "_content/TodoListApp",
   "Mode": "Default",
@@ -521,12 +521,12 @@
       "OriginalItemSpec": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\obj\\Debug\\net9.0\\compressed\\ixoonkczlp-jrfriz9igh.gz",
+      "Identity": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\obj\\Debug\\net9.0\\compressed\\ixoonkczlp-fwa5dxueh2.gz",
       "SourceId": "TodoListApp",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/TodoListApp",
-      "RelativePath": "js/todo#[.{fingerprint=jrfriz9igh}]?.js.gz",
+      "RelativePath": "js/todo#[.{fingerprint=fwa5dxueh2}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -535,8 +535,8 @@
       "RelatedAsset": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\js\\todo.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "3j5uza93nx",
-      "Integrity": "gc3B1GhdxOf5p218aCrPXGYgTlrTE5QbhgrT95O99HY=",
+      "Fingerprint": "4a67p9xxev",
+      "Integrity": "dBe51hvl552cDi+NkFz+eH85NJtnMfm8JrdeqTwBjmk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\js\\todo.js"
@@ -1690,8 +1690,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "jrfriz9igh",
-      "Integrity": "j1axnuIDopQsphKokMstDXGPLlllFYs3s0CCvLcF9vk=",
+      "Fingerprint": "fwa5dxueh2",
+      "Integrity": "kYhLxaWpJVu3S4AWKxbBpDsbwu6vg+kpvmiSy4KPsLU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\todo.js"
@@ -5066,13 +5066,13 @@
       ]
     },
     {
-      "Route": "js/todo.jrfriz9igh.js",
-      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\obj\\Debug\\net9.0\\compressed\\ixoonkczlp-jrfriz9igh.gz",
+      "Route": "js/todo.fwa5dxueh2.js",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\obj\\Debug\\net9.0\\compressed\\ixoonkczlp-fwa5dxueh2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000814332248"
+          "Quality": "0.000855431993"
         }
       ],
       "ResponseHeaders": [
@@ -5082,15 +5082,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1227"
+          "Value": "1168"
         },
         {
           "Name": "ETag",
-          "Value": "\"gc3B1GhdxOf5p218aCrPXGYgTlrTE5QbhgrT95O99HY=\""
+          "Value": "\"dBe51hvl552cDi+NkFz+eH85NJtnMfm8JrdeqTwBjmk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 08:29:28 GMT"
+          "Value": "Thu, 27 Mar 2025 08:37:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5110,13 +5110,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j1axnuIDopQsphKokMstDXGPLlllFYs3s0CCvLcF9vk=\""
+          "Value": "W/\"kYhLxaWpJVu3S4AWKxbBpDsbwu6vg+kpvmiSy4KPsLU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jrfriz9igh"
+          "Value": "fwa5dxueh2"
         },
         {
           "Name": "label",
@@ -5124,12 +5124,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j1axnuIDopQsphKokMstDXGPLlllFYs3s0CCvLcF9vk="
+          "Value": "sha256-kYhLxaWpJVu3S4AWKxbBpDsbwu6vg+kpvmiSy4KPsLU="
         }
       ]
     },
     {
-      "Route": "js/todo.jrfriz9igh.js",
+      "Route": "js/todo.fwa5dxueh2.js",
       "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\js\\todo.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -5139,7 +5139,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3735"
+          "Value": "3644"
         },
         {
           "Name": "Content-Type",
@@ -5147,11 +5147,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j1axnuIDopQsphKokMstDXGPLlllFYs3s0CCvLcF9vk=\""
+          "Value": "\"kYhLxaWpJVu3S4AWKxbBpDsbwu6vg+kpvmiSy4KPsLU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 08:29:28 GMT"
+          "Value": "Thu, 27 Mar 2025 08:37:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5161,7 +5161,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jrfriz9igh"
+          "Value": "fwa5dxueh2"
         },
         {
           "Name": "label",
@@ -5169,13 +5169,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-j1axnuIDopQsphKokMstDXGPLlllFYs3s0CCvLcF9vk="
+          "Value": "sha256-kYhLxaWpJVu3S4AWKxbBpDsbwu6vg+kpvmiSy4KPsLU="
         }
       ]
     },
     {
-      "Route": "js/todo.jrfriz9igh.js.gz",
-      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\obj\\Debug\\net9.0\\compressed\\ixoonkczlp-jrfriz9igh.gz",
+      "Route": "js/todo.fwa5dxueh2.js.gz",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\obj\\Debug\\net9.0\\compressed\\ixoonkczlp-fwa5dxueh2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5184,7 +5184,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1227"
+          "Value": "1168"
         },
         {
           "Name": "Content-Type",
@@ -5192,11 +5192,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gc3B1GhdxOf5p218aCrPXGYgTlrTE5QbhgrT95O99HY=\""
+          "Value": "\"dBe51hvl552cDi+NkFz+eH85NJtnMfm8JrdeqTwBjmk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 08:29:28 GMT"
+          "Value": "Thu, 27 Mar 2025 08:37:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5214,7 +5214,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "jrfriz9igh"
+          "Value": "fwa5dxueh2"
         },
         {
           "Name": "label",
@@ -5222,18 +5222,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-gc3B1GhdxOf5p218aCrPXGYgTlrTE5QbhgrT95O99HY="
+          "Value": "sha256-dBe51hvl552cDi+NkFz+eH85NJtnMfm8JrdeqTwBjmk="
         }
       ]
     },
     {
       "Route": "js/todo.js",
-      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\obj\\Debug\\net9.0\\compressed\\ixoonkczlp-jrfriz9igh.gz",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\obj\\Debug\\net9.0\\compressed\\ixoonkczlp-fwa5dxueh2.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000814332248"
+          "Quality": "0.000855431993"
         }
       ],
       "ResponseHeaders": [
@@ -5243,15 +5243,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1227"
+          "Value": "1168"
         },
         {
           "Name": "ETag",
-          "Value": "\"gc3B1GhdxOf5p218aCrPXGYgTlrTE5QbhgrT95O99HY=\""
+          "Value": "\"dBe51hvl552cDi+NkFz+eH85NJtnMfm8JrdeqTwBjmk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 08:29:28 GMT"
+          "Value": "Thu, 27 Mar 2025 08:37:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5271,13 +5271,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"j1axnuIDopQsphKokMstDXGPLlllFYs3s0CCvLcF9vk=\""
+          "Value": "W/\"kYhLxaWpJVu3S4AWKxbBpDsbwu6vg+kpvmiSy4KPsLU=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j1axnuIDopQsphKokMstDXGPLlllFYs3s0CCvLcF9vk="
+          "Value": "sha256-kYhLxaWpJVu3S4AWKxbBpDsbwu6vg+kpvmiSy4KPsLU="
         }
       ]
     },
@@ -5292,7 +5292,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3735"
+          "Value": "3644"
         },
         {
           "Name": "Content-Type",
@@ -5300,11 +5300,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"j1axnuIDopQsphKokMstDXGPLlllFYs3s0CCvLcF9vk=\""
+          "Value": "\"kYhLxaWpJVu3S4AWKxbBpDsbwu6vg+kpvmiSy4KPsLU=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 08:29:28 GMT"
+          "Value": "Thu, 27 Mar 2025 08:37:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5314,13 +5314,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-j1axnuIDopQsphKokMstDXGPLlllFYs3s0CCvLcF9vk="
+          "Value": "sha256-kYhLxaWpJVu3S4AWKxbBpDsbwu6vg+kpvmiSy4KPsLU="
         }
       ]
     },
     {
       "Route": "js/todo.js.gz",
-      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\obj\\Debug\\net9.0\\compressed\\ixoonkczlp-jrfriz9igh.gz",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\obj\\Debug\\net9.0\\compressed\\ixoonkczlp-fwa5dxueh2.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -5329,7 +5329,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1227"
+          "Value": "1168"
         },
         {
           "Name": "Content-Type",
@@ -5337,11 +5337,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"gc3B1GhdxOf5p218aCrPXGYgTlrTE5QbhgrT95O99HY=\""
+          "Value": "\"dBe51hvl552cDi+NkFz+eH85NJtnMfm8JrdeqTwBjmk=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 27 Mar 2025 08:29:28 GMT"
+          "Value": "Thu, 27 Mar 2025 08:37:38 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -5359,7 +5359,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-gc3B1GhdxOf5p218aCrPXGYgTlrTE5QbhgrT95O99HY="
+          "Value": "sha256-dBe51hvl552cDi+NkFz+eH85NJtnMfm8JrdeqTwBjmk="
         }
       ]
     },

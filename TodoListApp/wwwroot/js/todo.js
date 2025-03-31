@@ -1,58 +1,58 @@
-// ...existing code...
+// Track the currently open edit form
+let currentlyEditingId = null;
 
-let currentlyEditingId = null; // Track the currently open edit form
-
+// Open the edit form for a specific todo item
 function openEditForm(todoId) {
-  // Prevent opening another edit form if the same one is already open
-  if (currentlyEditingId === todoId) {
-    return;
-  }
+  // Prevent reopening the same edit form
+  if (currentlyEditingId === todoId) return;
 
-  // Close all other edit forms
+  // Close any other open edit forms
   closeAllEditForms();
 
-  // Open the new edit form
+  // Display the edit form for the selected todo item
   const editForm = document.getElementById(`edit-form-${todoId}`);
   if (editForm) {
     editForm.style.display = 'block';
     currentlyEditingId = todoId;
 
-    // Add a click listener to detect clicks outside the edit input
+    // Add a listener to detect clicks outside the edit form
     document.addEventListener('click', handleOutsideClick);
   }
 }
 
+// Close all open edit forms
 function closeAllEditForms() {
-  // Close all edit forms and reset the state
   document.querySelectorAll('.edit-form').forEach(form => {
     form.style.display = 'none';
   });
+
   currentlyEditingId = null;
 
-  // Remove the click listener to avoid unnecessary triggers
+  // Remove the outside click listener
   document.removeEventListener('click', handleOutsideClick);
 }
 
+// Close the edit form for a specific todo item
 function closeEditForm(todoId) {
   const editForm = document.getElementById(`edit-form-${todoId}`);
   if (editForm) {
     editForm.style.display = 'none';
     currentlyEditingId = null;
 
-    // Remove the click listener when the edit form is closed
+    // Remove the outside click listener
     document.removeEventListener('click', handleOutsideClick);
   }
 }
 
+// Handle clicks outside the currently open edit form
 function handleOutsideClick(event) {
   const listItem = document.querySelector(`.list-group-item[data-todo-id="${currentlyEditingId}"]`);
   if (listItem && !listItem.contains(event.target)) {
-    // Close the edit form if the click is outside the list-group-item
     closeEditForm(currentlyEditingId);
   }
 }
 
-// Attach event listeners to edit and cancel buttons dynamically
+// Attach event listeners to edit and cancel buttons
 function attachEventListeners() {
   document.querySelectorAll('.edit-button').forEach(button => {
     button.addEventListener('click', event => {
@@ -71,18 +71,19 @@ function attachEventListeners() {
   });
 }
 
-// Call attachEventListeners after rendering the todo list
+// Render the todo list dynamically
 function renderTodoList(todoItems) {
-  // Sort todo items by createdAt (most recent first)
+  // Sort todo items by creation date (most recent first)
   todoItems.sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
 
   const todoListContainer = document.getElementById('todo-list');
   todoListContainer.innerHTML = ''; // Clear existing items
 
+  // Create and append todo items
   todoItems.forEach(item => {
     const todoElement = document.createElement('div');
-    todoElement.className = 'list-group-item todo-item'; // Add list-group-item class
-    todoElement.setAttribute('data-todo-id', item.id); // Add data-todo-id for identification
+    todoElement.className = 'list-group-item todo-item';
+    todoElement.setAttribute('data-todo-id', item.id);
     todoElement.innerHTML = `
       <span>${item.title} - ${new Date(item.createdAt).toLocaleString()}</span>
       <button class="edit-button" data-todo-id="${item.id}">Edit</button>
@@ -98,10 +99,8 @@ function renderTodoList(todoItems) {
   attachEventListeners();
 }
 
-// Example usage
+// Fetch and render the todo list
 fetch('/api/todos')
   .then(response => response.json())
   .then(data => renderTodoList(data))
   .catch(error => console.error('Error fetching todo items:', error));
-
-// ...existing code...
