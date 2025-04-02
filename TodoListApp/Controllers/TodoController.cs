@@ -52,7 +52,14 @@ namespace TodoListApp.Controllers
                 }
             }
             Console.WriteLine($"Fetched {items.Count} TodoItems.");
-            return View(items);
+
+            // Check if the request is for JSON data
+            if (Request.Headers["Accept"].ToString().Contains("application/json"))
+            {
+                return Json(items); // Return JSON data
+            }
+
+            return View(items); // Return the view for regular requests
         }
 
         [HttpPost]

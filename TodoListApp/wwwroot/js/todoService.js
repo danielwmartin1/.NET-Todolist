@@ -4,21 +4,23 @@
 let supabase;
 
 function initializeSupabase() {
-  console.log('Initializing Supabase...');
-  if (!supabase) {
-    if (!window.supabase) {
-      console.error('Supabase library is not loaded.');
-      return;
+    console.log('Initializing Supabase...');
+    if (!supabase) {
+        if (!window.supabase) {
+            console.error('Supabase library is not loaded. Please include the Supabase JavaScript library.');
+            console.error('You can include it by adding the following script tag to your HTML:');
+            console.error('<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>');
+            return;
+        }
+        const supabaseUrl = process.env.SUPABASE_URL;
+        const supabaseKey = process.env.SUPABASE_KEY;
+        if (!supabaseUrl || !supabaseKey) {
+            console.error('Supabase URL or Key is not set in environment variables.');
+            return;
+        }
+        supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
+        console.log('Supabase initialized:', supabase);
     }
-    const supabaseUrl = process.env.SUPABASE_URL;
-    const supabaseKey = process.env.SUPABASE_KEY;
-    if (!supabaseUrl || !supabaseKey) {
-      console.error('Supabase URL or Key is not set in environment variables.');
-      return;
-    }
-    supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
-    console.log('Supabase initialized:', supabase);
-  }
 }
 
 // Validate input
@@ -49,18 +51,27 @@ export async function createTodoItem(title) {
 // Read all todo items
 export async function getTodoItems() {
   console.log('getTodoItems called');
-  initializeSupabase();
-  if (!supabase) return;
-  const { data, error } = await supabase
-    .from('todos')
-    .select('*');
-  console.log('Supabase response:', { data, error });
-  if (error) {
-    console.error('Error fetching todo items:', error);
-    throw error;
+  try {
+    const response = await fetch('/Todo/Index', {
+      method: 'GET',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      }
+    });
+
+    if (!response.ok) {
+      console.error(`Error fetching todo items: ${response.statusText}`);
+      return [];
+    }
+
+    const data = await response.json();
+    console.log('Fetched todo items:', data);
+    return data; // Ensure the data is returned
+  } catch (error) {
+    console.error('Error in getTodoItems:', error);
+    return []; // Return an empty array in case of error
   }
-  console.log('Fetched todo items:', data);
-  return data;
 }
 
 // Update a todo item

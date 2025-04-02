@@ -84,8 +84,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>x2hrpnljie</Fingerprint>
-      <Integrity>ORR+gGgbQLtk8CpbNchyoqa6emerK4/JMZ1AKlRc/+M=</Integrity>
+      <Fingerprint>7p71nkcd8k</Fingerprint>
+      <Integrity>OySp1MJGMmd93lcUhF+sRAl6M9LUv/K35UQM18DcB+8=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\main.js'))</OriginalItemSpec>
@@ -156,8 +156,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>657aqxblsd</Fingerprint>
-      <Integrity>Vk+OPhuQGnKMXslOix3NO0rI/Y1qvbm0oHHa4uQ0j9Q=</Integrity>
+      <Fingerprint>9lrojhbzpl</Fingerprint>
+      <Integrity>reii1klUhLB9RrmHBp2EkqG+hMho55JkJW75E9WGMkU=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\todoService.js'))</OriginalItemSpec>

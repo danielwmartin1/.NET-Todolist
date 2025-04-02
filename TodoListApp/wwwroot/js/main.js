@@ -44,11 +44,11 @@ async function loadTodoItems() {
   try {
     console.log('[DEBUG] Calling getTodoItems');
     const todoItems = await getTodoItems();
-    console.log('[DEBUG] Todo items response:', todoItems); // Debugging log
     if (!todoItems || !Array.isArray(todoItems)) {
       console.error('[ERROR] Todo items are undefined or not an array');
       return;
     }
+    console.log('[DEBUG] Todo items response:', todoItems); // Keep this log for debugging
     // Render todo items in the UI
     const todoList = document.getElementById('todo-list');
     if (todoList) {

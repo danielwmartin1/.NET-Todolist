@@ -15,6 +15,11 @@
       <button type="submit" class="btn btn-primary">Add</button>
     </form>
     
+    <form id="create-todo-form" class="form-inline">
+      <input id="todo-title" type="text" name="Title" class="form-control" placeholder="Add new item" required autofocus />
+      <button type="submit" class="btn btn-primary">Add</button>
+    </form>
+
     <div class="flex-container">
       <div class="container mt-4 full-width flex-item">
         <ul class="list-group mt-4">
@@ -62,10 +67,22 @@
       </div>
     </footer>
     <script>
+      const todoItems = @Html.Raw(Json.Serialize(Model));
+      console.log(todoItems);
+
       function handleEscape(event, itemId) {
           if (event.key === "Escape") {
               document.getElementById(`cancel-form-${itemId}`).submit();
           }
       }
+
+      // Prevent duplicate form submissions
+      document.addEventListener("submit", function (event) {
+          const form = event.target;
+          const submitButton = form.querySelector("button[type='submit']");
+          if (submitButton) {
+              submitButton.disabled = true;
+          }
+      });
     </script>
 </html>
