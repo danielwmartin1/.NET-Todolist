@@ -40,10 +40,10 @@
                         <div id="edit-form-@item.Id" class="@(item.IsEditing ? "" : "hidden")">
                           <form asp-action="Edit" method="post" class="mt-2 d-inline">
                             <input type="hidden" name="id" value="@item.Id" />
-                            <input type="text" name="Title" class="form-control" value="@item.Title" required />
+                            <input type="text" name="Title" class="form-control" value="@item.Title" required onkeydown="handleEscape(event, '@item.Id')" />
                             <button type="submit" class="btn btn-success mt-2">Update</button>
                           </form>
-                          <form asp-action="CancelEdit" method="post" class="mt-2 d-inline">
+                          <form asp-action="CancelEdit" method="post" id="cancel-form-@item.Id" class="mt-2 d-inline">
                             <input type="hidden" name="id" value="@item.Id" />
                             <button type="submit" class="btn btn-secondary mt-2">Cancel</button>
                           </form>
@@ -61,4 +61,11 @@
         <span class="footer">Daniel Martin © @DateTime.Now.Year</span>
       </div>
     </footer>
+    <script>
+      function handleEscape(event, itemId) {
+          if (event.key === "Escape") {
+              document.getElementById(`cancel-form-${itemId}`).submit();
+          }
+      }
+    </script>
 </html>
