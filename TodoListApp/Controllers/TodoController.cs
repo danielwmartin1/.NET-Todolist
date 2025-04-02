@@ -9,6 +9,7 @@ namespace TodoListApp.Controllers
     public class TodoController : Controller
     {
         private readonly string connectionString = "Data Source=todo.db";
+        private static List<TodoItem> _todoItems = new List<TodoItem>();
 
         public TodoController()
         {
@@ -111,6 +112,7 @@ namespace TodoListApp.Controllers
         }
 
         [HttpPost]
+        [Route("Todo/Edit")]
         public IActionResult Edit(int id, string title)
         {
             Console.WriteLine($"Editing TodoItem with Id={id}, New Title={title}");
@@ -124,6 +126,42 @@ namespace TodoListApp.Controllers
                 command.ExecuteNonQuery();
             }
             Console.WriteLine("TodoItem updated successfully.");
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        [Route("Todo/StartEdit")]
+        public IActionResult StartEdit(int id)
+        {
+            var item = _todoItems.FirstOrDefault(t => t.Id == id);
+            if (item != null)
+            {
+                item.IsEditing = true;
+            }
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        public IActionResult Update(int id, string title)
+        {
+            var item = _todoItems.FirstOrDefault(t => t.Id == id);
+            if (item != null)
+            {
+                item.Title = title;
+                item.IsEditing = false;
+            }
+            return RedirectToAction("Index");
+        }
+
+        [HttpPost]
+        [Route("Todo/CancelEdit")]
+        public IActionResult CancelEdit(int id)
+        {
+            var item = _todoItems.FirstOrDefault(t => t.Id == id);
+            if (item != null)
+            {
+                item.IsEditing = false;
+            }
             return RedirectToAction("Index");
         }
     }

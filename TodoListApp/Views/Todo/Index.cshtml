@@ -30,20 +30,24 @@
                               <span class="@(item.IsCompleted ? "completed-title" : "")">@item.Title</span>
                           </form>
                       </div>
-                      <div>
-                          <form asp-action="Delete" method="post" class="d-inline">
-                              <input type="hidden" name="id" value="@item.Id" />
-                              <button type="submit" class="btn btn-danger">Delete</button>
+                        <div>
+                          <form asp-action="Delete" method="post" class="d-inline @(item.IsEditing ? "hidden" : "")">
+                            <input type="hidden" name="id" value="@item.Id" />
+                            <button type="submit" class="btn btn-danger">Delete</button>
                           </form>
-                          <button class="btn btn-secondary" onclick="document.getElementById('edit-form-@item.Id').classList.toggle('hidden')">Edit</button>
-                      </div>
-                      <div id="edit-form-@item.Id" class="hidden">
-                          <form asp-action="Edit" method="post" class="mt-2">
-                              <input type="hidden" name="id" value="@item.Id" />
-                              <input type="text" name="Title" class="form-control" value="@item.Title" required />
-                              <button type="submit" class="btn btn-success mt-2">Update</button>
+                          <button class="btn btn-secondary @(item.IsEditing ? "hidden" : "")" onclick="document.getElementById('edit-form-@item.Id').classList.toggle('hidden'); this.parentElement.classList.add('hidden')">Edit</button>
+                        </div>
+                        <div id="edit-form-@item.Id" class="@(item.IsEditing ? "" : "hidden")">
+                          <form asp-action="Edit" method="post" class="mt-2 d-inline">
+                            <input type="hidden" name="id" value="@item.Id" />
+                            <input type="text" name="Title" class="form-control" value="@item.Title" required />
+                            <button type="submit" class="btn btn-success mt-2">Update</button>
                           </form>
-                      </div>
+                          <form asp-action="CancelEdit" method="post" class="mt-2 d-inline">
+                            <input type="hidden" name="id" value="@item.Id" />
+                            <button type="submit" class="btn btn-secondary mt-2">Cancel</button>
+                          </form>
+                        </div>
                   </li>
               }
           }
