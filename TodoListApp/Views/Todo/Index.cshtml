@@ -9,10 +9,9 @@
 </head>
   <body class="mt4 pt4">
     <nav class="navbar full-width center-content center-text">
-        <h1 class="navbar-title">.NET Todo List</h1>
     </nav>
-    <form id="create-todo-form" asp-action="Add" method="post" class="form-inline" onsubmit="logAddFormSubmission(event)">
-      <input type="text" id="todo-title" name="Title" class="form-control" placeholder="Add new item" required autofocus />
+    <form asp-action="Add" method="post" class="form-inline">
+      <input type="text" name="Title" class="form-control" placeholder="Add new item" required autofocus />
       <button type="submit" class="btn btn-primary">Add</button>
     </form>
     
@@ -32,18 +31,17 @@
                           </form>
                       </div>
                       <div>
-                          <form asp-action="Delete" method="post" class="d-inline" id="delete-button-@item.Id">
+                          <form asp-action="Delete" method="post" class="d-inline">
                               <input type="hidden" name="id" value="@item.Id" />
                               <button type="submit" class="btn btn-danger">Delete</button>
                           </form>
-                          <button class="btn btn-secondary" id="edit-button-@item.Id" onclick="toggleEditForm(@item.Id)">Edit</button>
+                          <button class="btn btn-secondary" onclick="document.getElementById('edit-form-@item.Id').classList.toggle('hidden')">Edit</button>
                       </div>
-                      <div id="edit-form-@item.Id" style="display:none;">
-                          <form asp-action="Update" method="post" class="form-inline">
+                      <div id="edit-form-@item.Id" class="hidden">
+                          <form asp-action="Edit" method="post" class="mt-2">
                               <input type="hidden" name="id" value="@item.Id" />
                               <input type="text" name="Title" class="form-control" value="@item.Title" required />
-                              <button type="submit" class="btn btn-primary btn-spacing" id="update-button-@item.Id">Update</button>
-                              <button type="button" class="btn btn-secondary btn-spacing" onclick="toggleEditForm(@item.Id)">Cancel</button>
+                              <button type="submit" class="btn btn-success mt-2">Update</button>
                           </form>
                       </div>
                   </li>
@@ -59,46 +57,4 @@
         <span class="footer">Daniel Martin © @DateTime.Now.Year</span>
       </div>
     </footer>
-    <script>
-        function toggleEditForm(id) {
-            console.log(`Toggling edit form for TodoItem with Id=${id}`);
-            const form = document.getElementById(`edit-form-${id}`);
-            const deleteButton = document.getElementById(`delete-button-${id}`);
-            const editButton = document.getElementById(`edit-button-${id}`);
-            const updateButton = document.getElementById(`update-button-${id}`);
-            const inputField = form.querySelector('input[name="Title"]'); // Select the edit input field
-
-            if (!form || !deleteButton || !editButton || !updateButton || !inputField) {
-                console.error(`Required elements not found for Id=${id}`);
-                return;
-            }
-
-            const isEditing = form.style.display === 'block';
-            form.style.display = isEditing ? 'none' : 'block';
-            deleteButton.style.display = isEditing ? 'inline-block' : 'none'; // Hide delete button while editing
-            editButton.style.display = isEditing ? 'inline-block' : 'none'; // Hide edit button while editing
-            updateButton.style.display = isEditing ? 'none' : 'inline-block'; // Show update button while editing
-
-            if (!isEditing) {
-                inputField.focus(); // Autofocus the input field when entering edit mode
-                inputField.setSelectionRange(inputField.value.length, inputField.value.length); // Move cursor to the end
-            }
-        }
-
-        function logAddFormSubmission(event) {
-            event.preventDefault(); // Prevent default form submission for debugging
-            const titleInput = document.getElementById('todo-title');
-            if (!titleInput) {
-                console.error('[ERROR] Todo title input not found');
-                return;
-            }
-            const title = titleInput.value.trim();
-            if (!title) {
-                console.error('[ERROR] Todo title is empty');
-                return;
-            }
-            console.log(`[DEBUG] Add form submitted with title: "${title}"`);
-            event.target.submit(); // Proceed with form submission
-        }
-    </script>
 </html>

@@ -30,7 +30,7 @@ namespace TodoListApp.Controllers
 
         public IActionResult Index()
         {
-            Console.WriteLine("[DEBUG] Index action called. Fetching all TodoItems...");
+            Console.WriteLine("Fetching all TodoItems...");
             List<TodoItem> items = new List<TodoItem>();
             using (var connection = new SqliteConnection(connectionString))
             {
@@ -50,20 +50,14 @@ namespace TodoListApp.Controllers
                     }
                 }
             }
-            Console.WriteLine($"[DEBUG] Fetched {items.Count} TodoItems.");
-
-            if (Request.Headers["Accept"].ToString().Contains("application/json"))
-            {
-                return Json(items);
-            }
-
+            Console.WriteLine($"Fetched {items.Count} TodoItems.");
             return View(items);
         }
 
         [HttpPost]
         public IActionResult Add(TodoItem item)
         {
-            Console.WriteLine($"[DEBUG] Add action called. Title={item.Title}, IsCompleted={item.IsCompleted}");
+            Console.WriteLine($"Adding new TodoItem: Title={item.Title}, IsCompleted={item.IsCompleted}");
             if (ModelState.IsValid)
             {
                 using (var connection = new SqliteConnection(connectionString))
@@ -73,20 +67,13 @@ namespace TodoListApp.Controllers
                     command.CommandText = "INSERT INTO TodoItems (Title, IsCompleted) VALUES (@Title, @IsCompleted)";
                     command.Parameters.AddWithValue("@Title", item.Title);
                     command.Parameters.AddWithValue("@IsCompleted", item.IsCompleted);
-                    var rowsAffected = command.ExecuteNonQuery();
-                    if (rowsAffected > 0)
-                    {
-                        Console.WriteLine($"[DEBUG] TodoItem added successfully. Title={item.Title}");
-                    }
-                    else
-                    {
-                        Console.WriteLine($"[ERROR] Failed to add TodoItem. Title={item.Title}");
-                    }
+                    command.ExecuteNonQuery();
                 }
+                Console.WriteLine("TodoItem added successfully.");
             }
             else
             {
-                Console.WriteLine("[ERROR] ModelState is invalid. TodoItem not added.");
+                Console.WriteLine("ModelState is invalid. TodoItem not added.");
             }
             return RedirectToAction("Index");
         }
@@ -94,53 +81,39 @@ namespace TodoListApp.Controllers
         [HttpPost]
         public IActionResult Delete(int id)
         {
-            Console.WriteLine($"[DEBUG] Delete action called. Id={id}");
+            Console.WriteLine($"Deleting TodoItem with Id={id}");
             using (var connection = new SqliteConnection(connectionString))
             {
                 connection.Open();
                 var command = connection.CreateCommand();
                 command.CommandText = "DELETE FROM TodoItems WHERE Id = @Id";
                 command.Parameters.AddWithValue("@Id", id);
-                var rowsAffected = command.ExecuteNonQuery();
-                if (rowsAffected > 0)
-                {
-                    Console.WriteLine($"[DEBUG] TodoItem with Id={id} deleted successfully.");
-                }
-                else
-                {
-                    Console.WriteLine($"[ERROR] TodoItem with Id={id} not found.");
-                }
+                command.ExecuteNonQuery();
             }
+            Console.WriteLine("TodoItem deleted successfully.");
             return RedirectToAction("Index");
         }
 
         [HttpPost]
         public IActionResult Toggle(int id)
         {
-            Console.WriteLine($"[DEBUG] Toggle action called. Id={id}");
+            Console.WriteLine($"Toggling completion status for TodoItem with Id={id}");
             using (var connection = new SqliteConnection(connectionString))
             {
                 connection.Open();
                 var command = connection.CreateCommand();
                 command.CommandText = "UPDATE TodoItems SET IsCompleted = NOT IsCompleted WHERE Id = @Id";
                 command.Parameters.AddWithValue("@Id", id);
-                var rowsAffected = command.ExecuteNonQuery();
-                if (rowsAffected > 0)
-                {
-                    Console.WriteLine($"[DEBUG] TodoItem with Id={id} toggled successfully.");
-                }
-                else
-                {
-                    Console.WriteLine($"[ERROR] TodoItem with Id={id} not found.");
-                }
+                command.ExecuteNonQuery();
             }
+            Console.WriteLine("TodoItem completion status toggled successfully.");
             return RedirectToAction("Index");
         }
 
         [HttpPost]
-        public IActionResult Update(int id, string title)
+        public IActionResult Edit(int id, string title)
         {
-            Console.WriteLine($"[DEBUG] Update action called. Id={id}, Title={title}");
+            Console.WriteLine($"Editing TodoItem with Id={id}, New Title={title}");
             using (var connection = new SqliteConnection(connectionString))
             {
                 connection.Open();
@@ -148,17 +121,9 @@ namespace TodoListApp.Controllers
                 command.CommandText = "UPDATE TodoItems SET Title = @Title WHERE Id = @Id";
                 command.Parameters.AddWithValue("@Title", title);
                 command.Parameters.AddWithValue("@Id", id);
-
-                var rowsAffected = command.ExecuteNonQuery();
-                if (rowsAffected > 0)
-                {
-                    Console.WriteLine($"[DEBUG] TodoItem with Id={id} updated successfully.");
-                }
-                else
-                {
-                    Console.WriteLine($"[ERROR] TodoItem with Id={id} not found or update failed.");
-                }
+                command.ExecuteNonQuery();
             }
+            Console.WriteLine("TodoItem updated successfully.");
             return RedirectToAction("Index");
         }
     }

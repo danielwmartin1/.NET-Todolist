@@ -28,3 +28,5 @@ app.MapControllerRoute(
     pattern: "{controller=Todo}/{action=Index}/{id?}");
 
 app.Run();
+
+partial class Program { }

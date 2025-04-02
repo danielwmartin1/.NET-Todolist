@@ -46,45 +46,6 @@ body, html {
 .navbar {
   top: 0;
   border-bottom: 5px ridge rgb(0, 255, 255);
-  background-color: #333; /* Dark background color */
-  color: white; /* White text color */
-  padding: 1rem; /* Add padding */
-  display: flex; /* Use flexbox for layout */
-  justify-content: center; /* Center content horizontally */
-  align-items: center; /* Center items vertically */
-}
-
-.navbar-title {
-  margin: 0; /* Remove default margin */
-  font-size: 1.5rem; /* Adjust font size */
-  text-align: center; /* Center text */
-}
-
-.navbar h1 {
-  margin: 0; /* Remove default margin */
-  font-size: 3rem; /* Adjust font size */
-}
-
-.navbar-menu {
-  list-style: none; /* Remove bullets */
-  display: flex; /* Display menu items in a row */
-  gap: 1rem; /* Add spacing between items */
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
-}
-
-.navbar-menu li {
-  display: inline; /* Ensure items are inline */
-}
-
-.navbar-menu a {
-  color: white; /* White text color for links */
-  text-decoration: none; /* Remove underline */
-  font-weight: bold; /* Make text bold */
-}
-
-.navbar-menu a:hover {
-  text-decoration: underline; /* Add underline on hover */
 }
 
 .navbar-brand {
@@ -104,12 +65,16 @@ body, html {
   width: 100%; /* Full width of the screen */
   padding: 20px; /* Add padding */
 }
-.form-control, .form-control {
+.form-control {
   margin-right: 0.5rem;
   flex-grow: 1; /* Allow input to grow */
-  background-color: white !important; /* Change input background color */
+  background-color: antiquewhite !important; /* Change input background color */
   border: 0.25px solid rgba(0, 31, 63, 0.5) !important; /* Navy blue border with 50% opacity */
   height: 40px !important; /* Set height */
+}
+
+input[type="text"] {
+  background-color: white !important;
 }
 
 .list-group-item {
@@ -141,10 +106,6 @@ body, html {
   color: white;
 }
 
-.btn-spacing {
-  margin-right: 0.5rem; /* Add spacing between buttons */
-}
-
 input[type="checkbox"] {
   cursor: pointer !important;
 }
@@ -159,4 +120,8 @@ input[type="checkbox"]:active {
 
 li:hover {
   background-color: rgba(255, 255, 45, 0.645) !important;
+}
+
+.hidden {
+  display: none;
 }
