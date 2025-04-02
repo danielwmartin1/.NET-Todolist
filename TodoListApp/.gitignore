@@ -1,7 +1,8 @@
 # ...existing code...
 .env
 .dotenv
-# Ignore build output
+
+# Ignore build output directories
 bin/
 obj/
 
