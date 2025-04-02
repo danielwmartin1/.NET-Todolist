@@ -16,4 +16,14 @@
     <PackageReference Include="supabase" Version="1.1.1" />
   </ItemGroup>
 
+  <Target Name="PreClean" BeforeTargets="Clean">
+    <Exec Command="taskkill /F /IM TodoListApp.exe >nul 2&gt;&amp;1 || exit 0" />
+  </Target>
+  <Target Name="PreBuildCleanup" BeforeTargets="Build">
+    <Exec Command="taskkill /F /IM TodoListApp.exe >nul 2&gt;&amp;1 || exit 0" />
+  </Target>
+  <Target Name="PostBuildCleanup" AfterTargets="Build">
+    <Exec Command="taskkill /F /IM TodoListApp.exe >nul 2&gt;&amp;1 || exit 0" />
+  </Target>
+
 </Project>
