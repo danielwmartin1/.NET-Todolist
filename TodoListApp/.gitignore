@@ -1,10 +1,19 @@
 # ...existing code...
 .env
 .dotenv
-# Binaries and build artifacts
+# Ignore build output
 bin/
 obj/
+
+# Ignore user-specific files
+*.user
+*.suo
+
+# Ignore compiled files
 *.dll
 *.exe
 *.pdb
+
+# Ignore other temporary files
 *.log
+*.tmp
