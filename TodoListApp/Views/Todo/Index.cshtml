@@ -9,14 +9,10 @@
 </head>
   <body class="mt4 pt4">
     <nav class="navbar full-width center-content center-text">
+        <h1 class="navbar-brand">.NET Todo List</h1>
     </nav>
     <form asp-action="Add" method="post" class="form-inline">
       <input type="text" name="Title" class="form-control" placeholder="Add new item" required autofocus />
-      <button type="submit" class="btn btn-primary">Add</button>
-    </form>
-    
-    <form id="create-todo-form" class="form-inline">
-      <input id="todo-title" type="text" name="Title" class="form-control" placeholder="Add new item" required autofocus />
       <button type="submit" class="btn btn-primary">Add</button>
     </form>
 
