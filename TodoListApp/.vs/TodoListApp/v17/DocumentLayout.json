@@ -26,8 +26,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -55,8 +59,7 @@
               "RelativeToolTip": "wwwroot\\js\\main.js",
               "ViewState": "AgIAADUAAAAAAAAAAAAgwEoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-24T06:10:05.907Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T06:10:05.907Z"
             },
             {
               "$type": "Document",
@@ -68,8 +71,7 @@
               "RelativeToolTip": "Controllers\\TodoController.cs",
               "ViewState": "AgIAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-24T06:08:31.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T06:08:31.498Z"
             },
             {
               "$type": "Document",
@@ -81,8 +83,7 @@
               "RelativeToolTip": "app.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-03-24T06:05:50.88Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-24T06:05:50.88Z"
             }
           ]
         }

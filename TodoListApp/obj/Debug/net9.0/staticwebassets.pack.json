@@ -281,6 +281,46 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
+      "Id": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+      "PackagePath": "staticwebassets\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs"
+    },
+    {
+      "Id": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Debug\\net9.0\\TodoListApp.Tests.AssemblyInfo.cs",
+      "PackagePath": "staticwebassets\\obj\\Debug\\net9.0\\TodoListApp.Tests.AssemblyInfo.cs"
+    },
+    {
+      "Id": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Debug\\net9.0\\TodoListApp.Tests.AssemblyInfoInputs.cache",
+      "PackagePath": "staticwebassets\\obj\\Debug\\net9.0\\TodoListApp.Tests.AssemblyInfoInputs.cache"
+    },
+    {
+      "Id": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Debug\\net9.0\\TodoListApp.Tests.GeneratedMSBuildEditorConfig.editorconfig",
+      "PackagePath": "staticwebassets\\obj\\Debug\\net9.0\\TodoListApp.Tests.GeneratedMSBuildEditorConfig.editorconfig"
+    },
+    {
+      "Id": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Debug\\net9.0\\TodoListApp.Tests.GlobalUsings.g.cs",
+      "PackagePath": "staticwebassets\\obj\\Debug\\net9.0\\TodoListApp.Tests.GlobalUsings.g.cs"
+    },
+    {
+      "Id": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Release\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+      "PackagePath": "staticwebassets\\obj\\Release\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs"
+    },
+    {
+      "Id": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Release\\net9.0\\TodoListApp.Tests.AssemblyInfo.cs",
+      "PackagePath": "staticwebassets\\obj\\Release\\net9.0\\TodoListApp.Tests.AssemblyInfo.cs"
+    },
+    {
+      "Id": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Release\\net9.0\\TodoListApp.Tests.AssemblyInfoInputs.cache",
+      "PackagePath": "staticwebassets\\obj\\Release\\net9.0\\TodoListApp.Tests.AssemblyInfoInputs.cache"
+    },
+    {
+      "Id": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Release\\net9.0\\TodoListApp.Tests.GeneratedMSBuildEditorConfig.editorconfig",
+      "PackagePath": "staticwebassets\\obj\\Release\\net9.0\\TodoListApp.Tests.GeneratedMSBuildEditorConfig.editorconfig"
+    },
+    {
+      "Id": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Release\\net9.0\\TodoListApp.Tests.GlobalUsings.g.cs",
+      "PackagePath": "staticwebassets\\obj\\Release\\net9.0\\TodoListApp.Tests.GlobalUsings.g.cs"
+    },
+    {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.TodoListApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },

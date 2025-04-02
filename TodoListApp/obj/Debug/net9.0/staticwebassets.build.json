@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GVZJuGXgwQFpC8GGiX8JydWOkOxsFllBjz8ioWp9PLI=",
+  "Hash": "lsnXvslrRHQAWzME8YIrWWk4cf8780X/CJIkIfCzErE=",
   "Source": "TodoListApp",
   "BasePath": "_content/TodoListApp",
   "Mode": "Default",
@@ -2976,6 +2976,216 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+      "SourceId": "TodoListApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\",
+      "BasePath": "_content/TodoListApp",
+      "RelativePath": "obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes#[.{fingerprint}]?.cs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mj2mf1ki6i",
+      "Integrity": "nnZJnE5ctiOtSInqqZsaU9nJcO/PkC2LCW54oZ7kKF0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Debug\\net9.0\\TodoListApp.Tests.AssemblyInfo.cs",
+      "SourceId": "TodoListApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\",
+      "BasePath": "_content/TodoListApp",
+      "RelativePath": "obj/Debug/net9.0/TodoListApp.Tests.AssemblyInfo#[.{fingerprint}]?.cs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ktqxdnf2zt",
+      "Integrity": "CF/vo6W7jpJOcI0bbAeLVtJiNtMeZGTbcVysjea35h8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\obj\\Debug\\net9.0\\TodoListApp.Tests.AssemblyInfo.cs"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Debug\\net9.0\\TodoListApp.Tests.AssemblyInfoInputs.cache",
+      "SourceId": "TodoListApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\",
+      "BasePath": "_content/TodoListApp",
+      "RelativePath": "obj/Debug/net9.0/TodoListApp.Tests.AssemblyInfoInputs#[.{fingerprint}]?.cache",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tichwt93sv",
+      "Integrity": "pV2P4k8AmpEL/WQW+Z61e0R/hXdp/82BwYRk0D6JOPk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\obj\\Debug\\net9.0\\TodoListApp.Tests.AssemblyInfoInputs.cache"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Debug\\net9.0\\TodoListApp.Tests.GeneratedMSBuildEditorConfig.editorconfig",
+      "SourceId": "TodoListApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\",
+      "BasePath": "_content/TodoListApp",
+      "RelativePath": "obj/Debug/net9.0/TodoListApp.Tests.GeneratedMSBuildEditorConfig#[.{fingerprint}]?.editorconfig",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mttjikbuyy",
+      "Integrity": "um+rTPMBlbFsVWsNHlq/4UTRdmVVcHocvDS27swtR6A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\obj\\Debug\\net9.0\\TodoListApp.Tests.GeneratedMSBuildEditorConfig.editorconfig"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Debug\\net9.0\\TodoListApp.Tests.GlobalUsings.g.cs",
+      "SourceId": "TodoListApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\",
+      "BasePath": "_content/TodoListApp",
+      "RelativePath": "obj/Debug/net9.0/TodoListApp.Tests.GlobalUsings.g#[.{fingerprint}]?.cs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xrvocppyn6",
+      "Integrity": "I6kEjSjC1Oej7ECjhehD8PSJUX6qG4f+lTbhzuAcbAo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\obj\\Debug\\net9.0\\TodoListApp.Tests.GlobalUsings.g.cs"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Release\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+      "SourceId": "TodoListApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\",
+      "BasePath": "_content/TodoListApp",
+      "RelativePath": "obj/Release/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes#[.{fingerprint}]?.cs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mj2mf1ki6i",
+      "Integrity": "nnZJnE5ctiOtSInqqZsaU9nJcO/PkC2LCW54oZ7kKF0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\obj\\Release\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Release\\net9.0\\TodoListApp.Tests.AssemblyInfo.cs",
+      "SourceId": "TodoListApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\",
+      "BasePath": "_content/TodoListApp",
+      "RelativePath": "obj/Release/net9.0/TodoListApp.Tests.AssemblyInfo#[.{fingerprint}]?.cs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "eeofg7o896",
+      "Integrity": "usqDxNyQwXKkDL7a/x18AF47upk2sxMVl2jh0JTHLSA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\obj\\Release\\net9.0\\TodoListApp.Tests.AssemblyInfo.cs"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Release\\net9.0\\TodoListApp.Tests.AssemblyInfoInputs.cache",
+      "SourceId": "TodoListApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\",
+      "BasePath": "_content/TodoListApp",
+      "RelativePath": "obj/Release/net9.0/TodoListApp.Tests.AssemblyInfoInputs#[.{fingerprint}]?.cache",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2s1m2zhec7",
+      "Integrity": "fg8JKeE+VDL4V4fiKNLnhaFedQ9bccCyj2oTh3osNZQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\obj\\Release\\net9.0\\TodoListApp.Tests.AssemblyInfoInputs.cache"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Release\\net9.0\\TodoListApp.Tests.GeneratedMSBuildEditorConfig.editorconfig",
+      "SourceId": "TodoListApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\",
+      "BasePath": "_content/TodoListApp",
+      "RelativePath": "obj/Release/net9.0/TodoListApp.Tests.GeneratedMSBuildEditorConfig#[.{fingerprint}]?.editorconfig",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mttjikbuyy",
+      "Integrity": "um+rTPMBlbFsVWsNHlq/4UTRdmVVcHocvDS27swtR6A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\obj\\Release\\net9.0\\TodoListApp.Tests.GeneratedMSBuildEditorConfig.editorconfig"
+    },
+    {
+      "Identity": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Release\\net9.0\\TodoListApp.Tests.GlobalUsings.g.cs",
+      "SourceId": "TodoListApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\",
+      "BasePath": "_content/TodoListApp",
+      "RelativePath": "obj/Release/net9.0/TodoListApp.Tests.GlobalUsings.g#[.{fingerprint}]?.cs",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xrvocppyn6",
+      "Integrity": "I6kEjSjC1Oej7ECjhehD8PSJUX6qG4f+lTbhzuAcbAo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\obj\\Release\\net9.0\\TodoListApp.Tests.GlobalUsings.g.cs"
     }
   ],
   "Endpoints": [
@@ -3302,7 +3512,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 03:32:30 GMT"
+          "Value": "Wed, 02 Apr 2025 03:37:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3355,7 +3565,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 03:32:30 GMT"
+          "Value": "Wed, 02 Apr 2025 03:37:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3392,7 +3602,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 03:32:30 GMT"
+          "Value": "Wed, 02 Apr 2025 03:37:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3439,7 +3649,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 03:32:30 GMT"
+          "Value": "Wed, 02 Apr 2025 03:37:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3500,7 +3710,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 03:32:30 GMT"
+          "Value": "Wed, 02 Apr 2025 03:37:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3545,7 +3755,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 03:32:30 GMT"
+          "Value": "Wed, 02 Apr 2025 03:37:36 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23326,6 +23536,826 @@
       ]
     },
     {
+      "Route": "obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "198"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nnZJnE5ctiOtSInqqZsaU9nJcO/PkC2LCW54oZ7kKF0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 06:01:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nnZJnE5ctiOtSInqqZsaU9nJcO/PkC2LCW54oZ7kKF0="
+        }
+      ]
+    },
+    {
+      "Route": "obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.mj2mf1ki6i.cs",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "198"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nnZJnE5ctiOtSInqqZsaU9nJcO/PkC2LCW54oZ7kKF0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 06:01:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mj2mf1ki6i"
+        },
+        {
+          "Name": "label",
+          "Value": "obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nnZJnE5ctiOtSInqqZsaU9nJcO/PkC2LCW54oZ7kKF0="
+        }
+      ]
+    },
+    {
+      "Route": "obj/Debug/net9.0/TodoListApp.Tests.AssemblyInfo.cs",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Debug\\net9.0\\TodoListApp.Tests.AssemblyInfo.cs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1065"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CF/vo6W7jpJOcI0bbAeLVtJiNtMeZGTbcVysjea35h8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 06:01:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-CF/vo6W7jpJOcI0bbAeLVtJiNtMeZGTbcVysjea35h8="
+        }
+      ]
+    },
+    {
+      "Route": "obj/Debug/net9.0/TodoListApp.Tests.AssemblyInfo.ktqxdnf2zt.cs",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Debug\\net9.0\\TodoListApp.Tests.AssemblyInfo.cs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1065"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"CF/vo6W7jpJOcI0bbAeLVtJiNtMeZGTbcVysjea35h8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 06:01:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ktqxdnf2zt"
+        },
+        {
+          "Name": "label",
+          "Value": "obj/Debug/net9.0/TodoListApp.Tests.AssemblyInfo.cs"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-CF/vo6W7jpJOcI0bbAeLVtJiNtMeZGTbcVysjea35h8="
+        }
+      ]
+    },
+    {
+      "Route": "obj/Debug/net9.0/TodoListApp.Tests.AssemblyInfoInputs.cache",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Debug\\net9.0\\TodoListApp.Tests.AssemblyInfoInputs.cache",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pV2P4k8AmpEL/WQW+Z61e0R/hXdp/82BwYRk0D6JOPk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 06:01:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-pV2P4k8AmpEL/WQW+Z61e0R/hXdp/82BwYRk0D6JOPk="
+        }
+      ]
+    },
+    {
+      "Route": "obj/Debug/net9.0/TodoListApp.Tests.AssemblyInfoInputs.tichwt93sv.cache",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Debug\\net9.0\\TodoListApp.Tests.AssemblyInfoInputs.cache",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"pV2P4k8AmpEL/WQW+Z61e0R/hXdp/82BwYRk0D6JOPk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 06:01:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tichwt93sv"
+        },
+        {
+          "Name": "label",
+          "Value": "obj/Debug/net9.0/TodoListApp.Tests.AssemblyInfoInputs.cache"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-pV2P4k8AmpEL/WQW+Z61e0R/hXdp/82BwYRk0D6JOPk="
+        }
+      ]
+    },
+    {
+      "Route": "obj/Debug/net9.0/TodoListApp.Tests.GeneratedMSBuildEditorConfig.editorconfig",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Debug\\net9.0\\TodoListApp.Tests.GeneratedMSBuildEditorConfig.editorconfig",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"um+rTPMBlbFsVWsNHlq/4UTRdmVVcHocvDS27swtR6A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 06:01:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-um+rTPMBlbFsVWsNHlq/4UTRdmVVcHocvDS27swtR6A="
+        }
+      ]
+    },
+    {
+      "Route": "obj/Debug/net9.0/TodoListApp.Tests.GeneratedMSBuildEditorConfig.mttjikbuyy.editorconfig",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Debug\\net9.0\\TodoListApp.Tests.GeneratedMSBuildEditorConfig.editorconfig",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"um+rTPMBlbFsVWsNHlq/4UTRdmVVcHocvDS27swtR6A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 06:01:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mttjikbuyy"
+        },
+        {
+          "Name": "label",
+          "Value": "obj/Debug/net9.0/TodoListApp.Tests.GeneratedMSBuildEditorConfig.editorconfig"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-um+rTPMBlbFsVWsNHlq/4UTRdmVVcHocvDS27swtR6A="
+        }
+      ]
+    },
+    {
+      "Route": "obj/Debug/net9.0/TodoListApp.Tests.GlobalUsings.g.cs",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Debug\\net9.0\\TodoListApp.Tests.GlobalUsings.g.cs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "334"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I6kEjSjC1Oej7ECjhehD8PSJUX6qG4f+lTbhzuAcbAo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 06:01:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I6kEjSjC1Oej7ECjhehD8PSJUX6qG4f+lTbhzuAcbAo="
+        }
+      ]
+    },
+    {
+      "Route": "obj/Debug/net9.0/TodoListApp.Tests.GlobalUsings.g.xrvocppyn6.cs",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Debug\\net9.0\\TodoListApp.Tests.GlobalUsings.g.cs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "334"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I6kEjSjC1Oej7ECjhehD8PSJUX6qG4f+lTbhzuAcbAo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 06:01:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xrvocppyn6"
+        },
+        {
+          "Name": "label",
+          "Value": "obj/Debug/net9.0/TodoListApp.Tests.GlobalUsings.g.cs"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I6kEjSjC1Oej7ECjhehD8PSJUX6qG4f+lTbhzuAcbAo="
+        }
+      ]
+    },
+    {
+      "Route": "obj/Release/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Release\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "198"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nnZJnE5ctiOtSInqqZsaU9nJcO/PkC2LCW54oZ7kKF0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 06:01:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-nnZJnE5ctiOtSInqqZsaU9nJcO/PkC2LCW54oZ7kKF0="
+        }
+      ]
+    },
+    {
+      "Route": "obj/Release/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.mj2mf1ki6i.cs",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Release\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "198"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"nnZJnE5ctiOtSInqqZsaU9nJcO/PkC2LCW54oZ7kKF0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 06:01:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mj2mf1ki6i"
+        },
+        {
+          "Name": "label",
+          "Value": "obj/Release/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-nnZJnE5ctiOtSInqqZsaU9nJcO/PkC2LCW54oZ7kKF0="
+        }
+      ]
+    },
+    {
+      "Route": "obj/Release/net9.0/TodoListApp.Tests.AssemblyInfo.cs",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Release\\net9.0\\TodoListApp.Tests.AssemblyInfo.cs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1067"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"usqDxNyQwXKkDL7a/x18AF47upk2sxMVl2jh0JTHLSA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 06:01:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-usqDxNyQwXKkDL7a/x18AF47upk2sxMVl2jh0JTHLSA="
+        }
+      ]
+    },
+    {
+      "Route": "obj/Release/net9.0/TodoListApp.Tests.AssemblyInfo.eeofg7o896.cs",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Release\\net9.0\\TodoListApp.Tests.AssemblyInfo.cs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1067"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"usqDxNyQwXKkDL7a/x18AF47upk2sxMVl2jh0JTHLSA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 06:01:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "eeofg7o896"
+        },
+        {
+          "Name": "label",
+          "Value": "obj/Release/net9.0/TodoListApp.Tests.AssemblyInfo.cs"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-usqDxNyQwXKkDL7a/x18AF47upk2sxMVl2jh0JTHLSA="
+        }
+      ]
+    },
+    {
+      "Route": "obj/Release/net9.0/TodoListApp.Tests.AssemblyInfoInputs.2s1m2zhec7.cache",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Release\\net9.0\\TodoListApp.Tests.AssemblyInfoInputs.cache",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fg8JKeE+VDL4V4fiKNLnhaFedQ9bccCyj2oTh3osNZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 06:01:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2s1m2zhec7"
+        },
+        {
+          "Name": "label",
+          "Value": "obj/Release/net9.0/TodoListApp.Tests.AssemblyInfoInputs.cache"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-fg8JKeE+VDL4V4fiKNLnhaFedQ9bccCyj2oTh3osNZQ="
+        }
+      ]
+    },
+    {
+      "Route": "obj/Release/net9.0/TodoListApp.Tests.AssemblyInfoInputs.cache",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Release\\net9.0\\TodoListApp.Tests.AssemblyInfoInputs.cache",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"fg8JKeE+VDL4V4fiKNLnhaFedQ9bccCyj2oTh3osNZQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 06:01:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-fg8JKeE+VDL4V4fiKNLnhaFedQ9bccCyj2oTh3osNZQ="
+        }
+      ]
+    },
+    {
+      "Route": "obj/Release/net9.0/TodoListApp.Tests.GeneratedMSBuildEditorConfig.editorconfig",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Release\\net9.0\\TodoListApp.Tests.GeneratedMSBuildEditorConfig.editorconfig",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"um+rTPMBlbFsVWsNHlq/4UTRdmVVcHocvDS27swtR6A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 06:01:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-um+rTPMBlbFsVWsNHlq/4UTRdmVVcHocvDS27swtR6A="
+        }
+      ]
+    },
+    {
+      "Route": "obj/Release/net9.0/TodoListApp.Tests.GeneratedMSBuildEditorConfig.mttjikbuyy.editorconfig",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Release\\net9.0\\TodoListApp.Tests.GeneratedMSBuildEditorConfig.editorconfig",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "722"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"um+rTPMBlbFsVWsNHlq/4UTRdmVVcHocvDS27swtR6A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 06:01:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mttjikbuyy"
+        },
+        {
+          "Name": "label",
+          "Value": "obj/Release/net9.0/TodoListApp.Tests.GeneratedMSBuildEditorConfig.editorconfig"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-um+rTPMBlbFsVWsNHlq/4UTRdmVVcHocvDS27swtR6A="
+        }
+      ]
+    },
+    {
+      "Route": "obj/Release/net9.0/TodoListApp.Tests.GlobalUsings.g.cs",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Release\\net9.0\\TodoListApp.Tests.GlobalUsings.g.cs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "334"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I6kEjSjC1Oej7ECjhehD8PSJUX6qG4f+lTbhzuAcbAo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 06:01:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I6kEjSjC1Oej7ECjhehD8PSJUX6qG4f+lTbhzuAcbAo="
+        }
+      ]
+    },
+    {
+      "Route": "obj/Release/net9.0/TodoListApp.Tests.GlobalUsings.g.xrvocppyn6.cs",
+      "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\wwwroot\\obj\\Release\\net9.0\\TodoListApp.Tests.GlobalUsings.g.cs",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "334"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I6kEjSjC1Oej7ECjhehD8PSJUX6qG4f+lTbhzuAcbAo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 02 Apr 2025 06:01:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xrvocppyn6"
+        },
+        {
+          "Name": "label",
+          "Value": "obj/Release/net9.0/TodoListApp.Tests.GlobalUsings.g.cs"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I6kEjSjC1Oej7ECjhehD8PSJUX6qG4f+lTbhzuAcbAo="
+        }
+      ]
+    },
+    {
       "Route": "TodoListApp.52vz64rpi9.bundle.scp.css",
       "AssetFile": "C:\\Users\\danie\\OneDrive\\Coding\\Projects\\.NET-Todolist\\TodoListApp\\obj\\Debug\\net9.0\\compressed\\oxp8nmu2nq-52vz64rpi9.gz",
       "Selectors": [
@@ -23350,7 +24380,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 02:54:20 GMT"
+          "Value": "Wed, 02 Apr 2025 06:17:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23411,7 +24441,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 02:54:20 GMT"
+          "Value": "Wed, 02 Apr 2025 06:17:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23456,7 +24486,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 02:54:20 GMT"
+          "Value": "Wed, 02 Apr 2025 06:17:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23511,7 +24541,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 02:54:20 GMT"
+          "Value": "Wed, 02 Apr 2025 06:17:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23572,7 +24602,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 02:54:20 GMT"
+          "Value": "Wed, 02 Apr 2025 06:17:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23617,7 +24647,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 02:54:20 GMT"
+          "Value": "Wed, 02 Apr 2025 06:17:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23672,7 +24702,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 02:54:20 GMT"
+          "Value": "Wed, 02 Apr 2025 06:17:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23725,7 +24755,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 02:54:20 GMT"
+          "Value": "Wed, 02 Apr 2025 06:17:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23762,7 +24792,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 02:54:20 GMT"
+          "Value": "Wed, 02 Apr 2025 06:17:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23809,7 +24839,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 02:54:20 GMT"
+          "Value": "Wed, 02 Apr 2025 06:17:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23862,7 +24892,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 02:54:20 GMT"
+          "Value": "Wed, 02 Apr 2025 06:17:27 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23899,7 +24929,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 02 Apr 2025 02:54:20 GMT"
+          "Value": "Wed, 02 Apr 2025 06:17:27 GMT"
         },
         {
           "Name": "Cache-Control",

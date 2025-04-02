@@ -16,13 +16,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/wixA9qrlqfjXJ59195JJRGf9GbOsrsDucHWMBD6Dbw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2882"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/wixA9qrlqfjXJ59195JJRGf9GbOsrsDucHWMBD6Dbw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 03:32:30 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2882"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/wixA9qrlqfjXJ59195JJRGf9GbOsrsDucHWMBD6Dbw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 03:37:36 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TodoListApp/css/styles.hwjddhw1fd.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\styles.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"hwjddhw1fd"},{"Name":"integrity","Value":"sha256-/wixA9qrlqfjXJ59195JJRGf9GbOsrsDucHWMBD6Dbw="},{"Name":"label","Value":"_content/TodoListApp/css/styles.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2882"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/wixA9qrlqfjXJ59195JJRGf9GbOsrsDucHWMBD6Dbw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 03:32:30 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2882"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/wixA9qrlqfjXJ59195JJRGf9GbOsrsDucHWMBD6Dbw=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 03:37:36 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TodoListApp/favicon.61n19gt1b8.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>
@@ -828,17 +828,137 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1117"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 05 Mar 2025 06:45:31 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TodoListApp/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\obj\Debug\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nnZJnE5ctiOtSInqqZsaU9nJcO/PkC2LCW54oZ7kKF0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"198"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022nnZJnE5ctiOtSInqqZsaU9nJcO/PkC2LCW54oZ7kKF0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 06:01:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TodoListApp/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.mj2mf1ki6i.cs">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\obj\Debug\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mj2mf1ki6i"},{"Name":"integrity","Value":"sha256-nnZJnE5ctiOtSInqqZsaU9nJcO/PkC2LCW54oZ7kKF0="},{"Name":"label","Value":"_content/TodoListApp/obj/Debug/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"198"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022nnZJnE5ctiOtSInqqZsaU9nJcO/PkC2LCW54oZ7kKF0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 06:01:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TodoListApp/obj/Debug/net9.0/TodoListApp.Tests.AssemblyInfo.cs">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\obj\Debug\net9.0\TodoListApp.Tests.AssemblyInfo.cs'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CF/vo6W7jpJOcI0bbAeLVtJiNtMeZGTbcVysjea35h8="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1065"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022CF/vo6W7jpJOcI0bbAeLVtJiNtMeZGTbcVysjea35h8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 06:01:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TodoListApp/obj/Debug/net9.0/TodoListApp.Tests.AssemblyInfo.ktqxdnf2zt.cs">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\obj\Debug\net9.0\TodoListApp.Tests.AssemblyInfo.cs'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ktqxdnf2zt"},{"Name":"integrity","Value":"sha256-CF/vo6W7jpJOcI0bbAeLVtJiNtMeZGTbcVysjea35h8="},{"Name":"label","Value":"_content/TodoListApp/obj/Debug/net9.0/TodoListApp.Tests.AssemblyInfo.cs"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1065"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022CF/vo6W7jpJOcI0bbAeLVtJiNtMeZGTbcVysjea35h8=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 06:01:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TodoListApp/obj/Debug/net9.0/TodoListApp.Tests.AssemblyInfoInputs.cache">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\obj\Debug\net9.0\TodoListApp.Tests.AssemblyInfoInputs.cache'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-pV2P4k8AmpEL/WQW\u002BZ61e0R/hXdp/82BwYRk0D6JOPk="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"66"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022pV2P4k8AmpEL/WQW\u002BZ61e0R/hXdp/82BwYRk0D6JOPk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 06:01:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TodoListApp/obj/Debug/net9.0/TodoListApp.Tests.AssemblyInfoInputs.tichwt93sv.cache">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\obj\Debug\net9.0\TodoListApp.Tests.AssemblyInfoInputs.cache'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"tichwt93sv"},{"Name":"integrity","Value":"sha256-pV2P4k8AmpEL/WQW\u002BZ61e0R/hXdp/82BwYRk0D6JOPk="},{"Name":"label","Value":"_content/TodoListApp/obj/Debug/net9.0/TodoListApp.Tests.AssemblyInfoInputs.cache"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"66"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022pV2P4k8AmpEL/WQW\u002BZ61e0R/hXdp/82BwYRk0D6JOPk=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 06:01:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TodoListApp/obj/Debug/net9.0/TodoListApp.Tests.GeneratedMSBuildEditorConfig.editorconfig">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\obj\Debug\net9.0\TodoListApp.Tests.GeneratedMSBuildEditorConfig.editorconfig'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-um\u002BrTPMBlbFsVWsNHlq/4UTRdmVVcHocvDS27swtR6A="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"722"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022um\u002BrTPMBlbFsVWsNHlq/4UTRdmVVcHocvDS27swtR6A=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 06:01:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TodoListApp/obj/Debug/net9.0/TodoListApp.Tests.GeneratedMSBuildEditorConfig.mttjikbuyy.editorconfig">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\obj\Debug\net9.0\TodoListApp.Tests.GeneratedMSBuildEditorConfig.editorconfig'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mttjikbuyy"},{"Name":"integrity","Value":"sha256-um\u002BrTPMBlbFsVWsNHlq/4UTRdmVVcHocvDS27swtR6A="},{"Name":"label","Value":"_content/TodoListApp/obj/Debug/net9.0/TodoListApp.Tests.GeneratedMSBuildEditorConfig.editorconfig"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"722"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022um\u002BrTPMBlbFsVWsNHlq/4UTRdmVVcHocvDS27swtR6A=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 06:01:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TodoListApp/obj/Debug/net9.0/TodoListApp.Tests.GlobalUsings.g.cs">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\obj\Debug\net9.0\TodoListApp.Tests.GlobalUsings.g.cs'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-I6kEjSjC1Oej7ECjhehD8PSJUX6qG4f\u002BlTbhzuAcbAo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"334"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022I6kEjSjC1Oej7ECjhehD8PSJUX6qG4f\u002BlTbhzuAcbAo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 06:01:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TodoListApp/obj/Debug/net9.0/TodoListApp.Tests.GlobalUsings.g.xrvocppyn6.cs">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\obj\Debug\net9.0\TodoListApp.Tests.GlobalUsings.g.cs'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xrvocppyn6"},{"Name":"integrity","Value":"sha256-I6kEjSjC1Oej7ECjhehD8PSJUX6qG4f\u002BlTbhzuAcbAo="},{"Name":"label","Value":"_content/TodoListApp/obj/Debug/net9.0/TodoListApp.Tests.GlobalUsings.g.cs"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"334"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022I6kEjSjC1Oej7ECjhehD8PSJUX6qG4f\u002BlTbhzuAcbAo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 06:01:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TodoListApp/obj/Release/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\obj\Release\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nnZJnE5ctiOtSInqqZsaU9nJcO/PkC2LCW54oZ7kKF0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"198"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022nnZJnE5ctiOtSInqqZsaU9nJcO/PkC2LCW54oZ7kKF0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 06:01:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TodoListApp/obj/Release/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.mj2mf1ki6i.cs">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\obj\Release\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mj2mf1ki6i"},{"Name":"integrity","Value":"sha256-nnZJnE5ctiOtSInqqZsaU9nJcO/PkC2LCW54oZ7kKF0="},{"Name":"label","Value":"_content/TodoListApp/obj/Release/net9.0/.NETCoreApp,Version=v9.0.AssemblyAttributes.cs"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"198"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022nnZJnE5ctiOtSInqqZsaU9nJcO/PkC2LCW54oZ7kKF0=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 06:01:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TodoListApp/obj/Release/net9.0/TodoListApp.Tests.AssemblyInfo.cs">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\obj\Release\net9.0\TodoListApp.Tests.AssemblyInfo.cs'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-usqDxNyQwXKkDL7a/x18AF47upk2sxMVl2jh0JTHLSA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1067"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022usqDxNyQwXKkDL7a/x18AF47upk2sxMVl2jh0JTHLSA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 06:01:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TodoListApp/obj/Release/net9.0/TodoListApp.Tests.AssemblyInfo.eeofg7o896.cs">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\obj\Release\net9.0\TodoListApp.Tests.AssemblyInfo.cs'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"eeofg7o896"},{"Name":"integrity","Value":"sha256-usqDxNyQwXKkDL7a/x18AF47upk2sxMVl2jh0JTHLSA="},{"Name":"label","Value":"_content/TodoListApp/obj/Release/net9.0/TodoListApp.Tests.AssemblyInfo.cs"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1067"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022usqDxNyQwXKkDL7a/x18AF47upk2sxMVl2jh0JTHLSA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 06:01:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TodoListApp/obj/Release/net9.0/TodoListApp.Tests.AssemblyInfoInputs.2s1m2zhec7.cache">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\obj\Release\net9.0\TodoListApp.Tests.AssemblyInfoInputs.cache'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2s1m2zhec7"},{"Name":"integrity","Value":"sha256-fg8JKeE\u002BVDL4V4fiKNLnhaFedQ9bccCyj2oTh3osNZQ="},{"Name":"label","Value":"_content/TodoListApp/obj/Release/net9.0/TodoListApp.Tests.AssemblyInfoInputs.cache"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"66"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022fg8JKeE\u002BVDL4V4fiKNLnhaFedQ9bccCyj2oTh3osNZQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 06:01:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TodoListApp/obj/Release/net9.0/TodoListApp.Tests.AssemblyInfoInputs.cache">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\obj\Release\net9.0\TodoListApp.Tests.AssemblyInfoInputs.cache'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-fg8JKeE\u002BVDL4V4fiKNLnhaFedQ9bccCyj2oTh3osNZQ="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"66"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022fg8JKeE\u002BVDL4V4fiKNLnhaFedQ9bccCyj2oTh3osNZQ=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 06:01:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TodoListApp/obj/Release/net9.0/TodoListApp.Tests.GeneratedMSBuildEditorConfig.editorconfig">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\obj\Release\net9.0\TodoListApp.Tests.GeneratedMSBuildEditorConfig.editorconfig'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-um\u002BrTPMBlbFsVWsNHlq/4UTRdmVVcHocvDS27swtR6A="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"722"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022um\u002BrTPMBlbFsVWsNHlq/4UTRdmVVcHocvDS27swtR6A=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 06:01:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TodoListApp/obj/Release/net9.0/TodoListApp.Tests.GeneratedMSBuildEditorConfig.mttjikbuyy.editorconfig">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\obj\Release\net9.0\TodoListApp.Tests.GeneratedMSBuildEditorConfig.editorconfig'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"mttjikbuyy"},{"Name":"integrity","Value":"sha256-um\u002BrTPMBlbFsVWsNHlq/4UTRdmVVcHocvDS27swtR6A="},{"Name":"label","Value":"_content/TodoListApp/obj/Release/net9.0/TodoListApp.Tests.GeneratedMSBuildEditorConfig.editorconfig"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"722"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022um\u002BrTPMBlbFsVWsNHlq/4UTRdmVVcHocvDS27swtR6A=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 06:01:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TodoListApp/obj/Release/net9.0/TodoListApp.Tests.GlobalUsings.g.cs">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\obj\Release\net9.0\TodoListApp.Tests.GlobalUsings.g.cs'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-I6kEjSjC1Oej7ECjhehD8PSJUX6qG4f\u002BlTbhzuAcbAo="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"334"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022I6kEjSjC1Oej7ECjhehD8PSJUX6qG4f\u002BlTbhzuAcbAo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 06:01:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/TodoListApp/obj/Release/net9.0/TodoListApp.Tests.GlobalUsings.g.xrvocppyn6.cs">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\obj\Release\net9.0\TodoListApp.Tests.GlobalUsings.g.cs'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xrvocppyn6"},{"Name":"integrity","Value":"sha256-I6kEjSjC1Oej7ECjhehD8PSJUX6qG4f\u002BlTbhzuAcbAo="},{"Name":"label","Value":"_content/TodoListApp/obj/Release/net9.0/TodoListApp.Tests.GlobalUsings.g.cs"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"334"},{"Name":"Content-Type","Value":"application/octet-stream"},{"Name":"ETag","Value":"\u0022I6kEjSjC1Oej7ECjhehD8PSJUX6qG4f\u002BlTbhzuAcbAo=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 06:01:09 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TodoListApp/TodoListApp.52vz64rpi9.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TodoListApp.52vz64rpi9.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"52vz64rpi9"},{"Name":"integrity","Value":"sha256-/c2\u002BY1UhtVo/rtj\u002BkNEISVzyfTyEXP4Z8rKhyV6PczM="},{"Name":"label","Value":"_content/TodoListApp/TodoListApp.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/c2\u002BY1UhtVo/rtj\u002BkNEISVzyfTyEXP4Z8rKhyV6PczM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 02:54:20 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/c2\u002BY1UhtVo/rtj\u002BkNEISVzyfTyEXP4Z8rKhyV6PczM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 06:17:27 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/TodoListApp/TodoListApp.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\TodoListApp.52vz64rpi9.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-/c2\u002BY1UhtVo/rtj\u002BkNEISVzyfTyEXP4Z8rKhyV6PczM="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/c2\u002BY1UhtVo/rtj\u002BkNEISVzyfTyEXP4Z8rKhyV6PczM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 02:54:20 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1129"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022/c2\u002BY1UhtVo/rtj\u002BkNEISVzyfTyEXP4Z8rKhyV6PczM=\u0022"},{"Name":"Last-Modified","Value":"Wed, 02 Apr 2025 06:17:27 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
   </ItemGroup>
 </Project>

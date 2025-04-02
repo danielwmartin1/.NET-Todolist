@@ -3,7 +3,6 @@
     "",
     "\\Controllers",
     "\\Controllers\\Todo",
-    "\\Data",
     "\\wwwroot",
     "\\wwwroot\\js"
   ],
